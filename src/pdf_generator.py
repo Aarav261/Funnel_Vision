@@ -3,11 +3,6 @@ import asyncio
 import json
 from pathlib import Path
 
-from scraper import scrape_page
-from scraper import collect_text_and_button_boxes
-
-
-
 from report_generator import generate_teardown_report
 
 
