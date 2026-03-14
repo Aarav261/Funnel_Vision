@@ -364,6 +364,12 @@ And the same with the high ticket offering. If you value it as over $5000 and ar
 
 Explain the cost of not taking action to the prospective consumer
 
+SCORING GUIDELINES & LENIENCY:
+Please evaluate the page with a balanced, constructive, and lenient approach. Do not be overly strict. 
+- Scores of 1-4 should be reserved ONLY for critical failures, huge friction points, or completely missing essential elements.
+- Scores of 5-7 are for average, standard, or decent implementations that are functional but could use some optimization.
+- Scores of 8-10 are for good, very good, and excellent implementations.
+Most small business owners are doing their best, so be encouraging. If an element is present and functionally does its job (even if it's not perfect CRO), give it a passing score (5+).
 
 IMPORTANT: You must return a JSON object containing exactly one key named 'issues' that contains a list of your analysis items. Each item must map perfectly to the Pydantic schema provided."""
 
