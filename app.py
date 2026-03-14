@@ -22,7 +22,7 @@ sys.path.append(str(Path(__file__).parent / "src"))
 
 # Now we can import from src directly as if we are in it
 from pdf_generator import main as generate_report
-from scraper import run_full_scrape
+from src.scraper import run_full_scrape
 from analyze_local import main as run_analysis
 from delete_screenshots import delete_screenshots
 
