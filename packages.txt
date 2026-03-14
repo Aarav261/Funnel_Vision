@@ -1,0 +1,9 @@
+libnss3
+libnss3-dev
+libnspr4
+libgbm1
+libasound2
+libatk-bridge2.0-0
+libgtk-3-0
+libpangocairo-1.0-0
+libgl1-mesa-dri
