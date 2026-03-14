@@ -42,12 +42,6 @@ async def main():
     # Extract bounding box info to feed to the LLM (to avoid overloading context)
     agentql_data = scrape_data.get("collect_text_and_button_boxes", {})
     
-    # Truncate text/buttons slightly if too large to help the model process it
-    if "text_boxes" in agentql_data:
-        agentql_data["text_boxes"] = agentql_data["text_boxes"][:30]
-    if "button_boxes" in agentql_data:
-        agentql_data["button_boxes"] = agentql_data["button_boxes"][:20]
-    
     # 2. Get the screenshot from page_screenshots
     screenshots_dir = Path("page_screenshots")
     images = list(screenshots_dir.glob("*.png"))

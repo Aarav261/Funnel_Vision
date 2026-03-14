@@ -121,15 +121,7 @@ async def collect_text_and_button_boxes(target_url: str | list[str]) -> dict:
                     if not await el.is_visible():
                         continue
                         
-                    box = await el.evaluate("""(node) => {
-                        const rect = node.getBoundingClientRect();
-                        return {
-                            x: rect.x + window.scrollX,
-                            y: rect.y + window.scrollY,
-                            width: rect.width,
-                            height: rect.height
-                        };
-                    }""")
+                    box = await el.bounding_box()
                     text = (await el.text_content() or "").strip()
                     if box and text and box["width"] > 0 and box["height"] > 0:
                         button_boxes.append(
@@ -151,15 +143,7 @@ async def collect_text_and_button_boxes(target_url: str | list[str]) -> dict:
                     if not await el.is_visible():
                         continue
                         
-                    box = await el.evaluate("""(node) => {
-                        const rect = node.getBoundingClientRect();
-                        return {
-                            x: rect.x + window.scrollX,
-                            y: rect.y + window.scrollY,
-                            width: rect.width,
-                            height: rect.height
-                        };
-                    }""")
+                    box = await el.bounding_box()
                     text = (await el.text_content() or "").strip()
                     if box and text and box["width"] > 0 and box["height"] > 0:
                         text_boxes.append(
