@@ -1,0 +1,28 @@
+[project]
+name = "funnel-vision"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "agentql>=1.18.1",
+    "fastmcp>=3.1.0",
+    "fpdf2>=2.8.7",
+    "langchain[anthropic]>=1.2.12",
+    "langchain-core>=1.2.19",
+    "langchain-openai>=1.1.11",
+    "openai>=2.28.0",
+    "pillow>=12.1.1",
+    "playwright>=1.58.0",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.2",
+    "supabase>=2.28.2",
+    "langchain-anthropic>=1.3.5",
+    "fastapi[standard]>=0.135.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "pytest-asyncio>=1.3.0",
+]
