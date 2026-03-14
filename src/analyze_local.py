@@ -78,49 +78,35 @@ async def main():
     llm = ChatAnthropic(model="claude-sonnet-4-6", max_tokens=8192)
     structured_llm = llm.with_structured_output(FunnelTeardown)
     
-    prompt_text = f"""<role>
-You are an authoritative CRO expert helping small business owners increase sales. You analyze landing pages using the FLOW Framework and core conversion principles. Provide encouraging feedback paired with direct, unhedged commands for improvement.
-</role>
+    prompt_text = f"""You are a top-tier Conversion Rate Optimization (CRO) expert analyzing a landing page.
+Your goal is to help small business owners increase their sales by identifying friction points and credibility gaps. Keep your tone encouraging and considerate; they are trying their best!
 
-<rules>
-1. Be encouraging and supportive of the business owner's effort.
-2. Give direct, authoritative suggestions. Never use hedging words like "maybe", "perhaps", "consider", or "might". Use direct commands like "Move this CTA" or "Add a testimonial".
-3. Do not use dashes or hyphens anywhere in your response. Use commas or periods instead.
-4. Score leniently: 1 to 4 for critical failures, 5 to 7 for functional but average setups, 8 to 10 for excellent implementations.
-</rules>
+Analyze the page based on the FLOW Framework:
+1. Friction (Primary CTA visibility, clear navigation, reduced decision fatigue)
+2. Legitimacy/Social Proof (Testimonials, case studies, personal bios, established authority)
+3. Offer Clarity (Headline clarity, logical flow, specific ideal audience, clear transformation)
+4. Willingness to Buy/Trust (FAQs, objection handling, transparent next steps, risk reversal/guarantees)
 
-<evaluation_criteria>
-Evaluate the page using the FLOW Framework:
-1. Friction (Primary CTA): Is a CTA visible above the fold? Are there too many competing CTAs? Is the flow simple?
-2. Legitimacy (Social Proof): Are testimonials, case studies, and a personal bio present and believable?
-3. Offer Clarity: Is the headline clear and bold? Are benefits and transformations obvious? Are visual elements used effectively over blocky text?
-4. Willingness to Buy: Are there FAQs, a money back guarantee, and clear risk reversal near the buy buttons?
+Here is the AgentQL bounding box layout data to reference: {json.dumps(agentql_data)}
 
-Apply the 12 Core Principles of Conversion to your analysis: Simplicity, Speed to Value, Contrast Positioning, Authority Transfer, Barrier Removal, Value Stacking, Scarcity, Risk Reversal, Peer Proof, Transformation Focus, Accessibility, and Momentum.
-</evaluation_criteria>
+HIGH-CONVERTING PRINCIPLES TO KEEP IN MIND:
+- Offer simplicity and speed to measurable results.
+- Create contrast against "the old way".
+- Transfer authority and emphasize relatable peer success.
+- Stack value so the price seems negligible.
+- Maintain momentum with frequent, visible buy buttons (especially 'above the fold' and near testimonials).
+- Break up text with strong visual elements and negative space.
+- Address objections directly and clear barriers.
 
-<agentql_data>
-{json.dumps(agentql_data)}
-</agentql_data>
+SCORING GUIDELINES & CONSTRUCTIVE FEEDBACK:
+Provide scores from 1-10 with a balanced, extremely lenient approach:
+- 1-4: Critical failures or entirely missing essential components (Use sparingly).
+- 5-7: Functional, decent, but could use optimization (Average score for passing elements).
+- 8-10: Excellent, clear, and highly persuasive implementations.
 
-<output_instructions>
-Return ONLY a valid JSON object. No conversational filler or markdown outside the JSON. Your output must contain exactly one key named "issues" holding an array of objects matching this exact schema:
+For every issue found, provide a highly specific, actionable `suggested_text_fix` on how to improve it while praising what they did right (if anything). 
 
-{
-  "issues": [
-    {
-      "issue_title": "Short title of the finding",
-      "flow_category": "Friction, Legitimacy, Offer Clarity, or Willingness to Buy",
-      "conversion_principle_applied": "Relevant principle from the 12 Core Principles",
-      "element_analyzed": "Specific AgentQL element referenced",
-      "score": "Integer 1 to 10",
-      "current_state_praise": "One encouraging sentence validating their current effort",
-      "actionable_suggestion": "Direct, unhedged command on how to improve it",
-      "psychological_reasoning": "Brief psychological reason why this change works"
-    }
-  ]
-}
-</output_instructions>"""
+IMPORTANT: You must return a JSON object with exactly one key named 'issues'. Each item must map perfectly to the requested Pydantic schema."""
 
     message = HumanMessage(content=[
         {
