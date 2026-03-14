@@ -32,7 +32,7 @@ try:
     st.image("logo.png", width=300)
 except:
     pass
-st.title("Funnel Vision Teardown 🔍")
+st.title("FunnelVision")
 st.write("Generate an AI-driven, highly optimized teardown of any landing page.")
 
 url = st.text_input("Enter Landing Page URL", placeholder="https://www.example.com")
