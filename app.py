@@ -108,6 +108,8 @@ def render_analysis_results(target_url: str) -> None:
     if "chat_context_key" not in st.session_state:
         st.session_state.chat_context_key = None
 
+    flow_data: dict | None = None
+
     # Create two columns: Left for PDF, Right for Analysis
     col1, col2 = st.columns([3, 2])
 
@@ -158,40 +160,41 @@ def render_analysis_results(target_url: str) -> None:
                             st.divider()
             else:
                 st.info("No major issues found by the AI!")
-
-            st.markdown("### Ask the AI CRO Assistant")
-            st.caption("Ask follow-up questions about improving this exact landing page using Claude's analysis context.")
-
-            for msg in st.session_state.chat_history:
-                with st.chat_message(msg["role"]):
-                    st.markdown(msg["content"])
-
-            user_question = st.chat_input("Ask how to improve your page based on this analysis")
-            if user_question:
-                st.session_state.chat_history.append({"role": "user", "content": user_question})
-                with st.chat_message("user"):
-                    st.markdown(user_question)
-
-                with st.chat_message("assistant"):
-                    with st.spinner("Thinking..."):
-                        try:
-                            if not os.getenv("ANTHROPIC_API_KEY"):
-                                assistant_reply = "ANTHROPIC_API_KEY is missing, so I cannot answer yet. Add it to your environment to use chat."
-                            else:
-                                assistant_reply = ask_flow_assistant(
-                                    user_question,
-                                    flow_data,
-                                    target_url,
-                                    st.session_state.chat_history[:-1],
-                                )
-                            st.markdown(assistant_reply)
-                        except Exception as chat_error:
-                            assistant_reply = f"Chat assistant error: {chat_error}"
-                            st.error(assistant_reply)
-
-                st.session_state.chat_history.append({"role": "assistant", "content": assistant_reply})
         else:
             st.warning("Could not locate flow analysis data.")
+
+    if flow_data is not None:
+        st.markdown("### Ask the AI CRO Assistant")
+        st.caption("Ask follow-up questions about improving this exact landing page using Claude's analysis context.")
+
+        for msg in st.session_state.chat_history:
+            with st.chat_message(msg["role"]):
+                st.markdown(msg["content"])
+
+        user_question = st.chat_input("Ask how to improve your page based on this analysis")
+        if user_question:
+            st.session_state.chat_history.append({"role": "user", "content": user_question})
+            with st.chat_message("user"):
+                st.markdown(user_question)
+
+            with st.chat_message("assistant"):
+                with st.spinner("Thinking..."):
+                    try:
+                        if not os.getenv("ANTHROPIC_API_KEY"):
+                            assistant_reply = "ANTHROPIC_API_KEY is missing, so I cannot answer yet. Add it to your environment to use chat."
+                        else:
+                            assistant_reply = ask_flow_assistant(
+                                user_question,
+                                flow_data,
+                                target_url,
+                                st.session_state.chat_history[:-1],
+                            )
+                        st.markdown(assistant_reply)
+                    except Exception as chat_error:
+                        assistant_reply = f"Chat assistant error: {chat_error}"
+                        st.error(assistant_reply)
+
+            st.session_state.chat_history.append({"role": "assistant", "content": assistant_reply})
 
 
 if "analysis_ready" not in st.session_state:
