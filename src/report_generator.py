@@ -19,15 +19,9 @@ def generate_teardown_report(image_path: str | list[str], bounding_boxes: list[d
         elif isinstance(item, list):
             normalized_boxes.extend(box for box in item if isinstance(box, dict))
 
-    pdf = FPDF()
-    pdf.set_auto_page_break(auto=True, margin=10)
-    pdf.add_page()
-    pdf.set_font("Helvetica", "B", 18)
-    pdf.cell(0, 12, "FunnelVision Teardown Report", new_x="LMARGIN", new_y="NEXT", align="C")
-
     with TemporaryDirectory() as tmp_dir:
         tmp_dir_path = Path(tmp_dir)
-        pdf_page_index = 1
+        pdf = None
         
         for image_file in image_files:
             image = Image.open(image_file).convert("RGB")
@@ -77,31 +71,33 @@ def generate_teardown_report(image_path: str | list[str], bounding_boxes: list[d
                     width=box_width,
                 )
 
-            # Calculate ideal slice height to fit the PDF page perfectly
-            content_width_mm = pdf.w - pdf.l_margin - pdf.r_margin
-            content_height_mm = pdf.h - pdf.t_margin - pdf.b_margin - 10  # 10mm for the title cell
+            # Calculate dynamic PDF values to render the whole image continuously
+            pdf_width_mm = 210 # Standard width
+            margin = 10
+            content_width_mm = pdf_width_mm - (margin * 2)
             
-            # Ratio of PDF content height to width
-            aspect_ratio = content_height_mm / content_width_mm
-            slice_height_px = max(100, int(image_width_px * aspect_ratio))
+            # Calculate exact height needed in mm to maintain aspect ratio
+            aspect_ratio = image_height_px / image_width_px
+            content_height_mm = content_width_mm * aspect_ratio
             
-            segment_top = 0
-            while segment_top < image_height_px:
-                segment_bottom = min(segment_top + slice_height_px, image_height_px)
-                slice_img = image.crop((0, segment_top, image_width_px, segment_bottom))
+            # Save the full drawn image temporarily
+            marked_path = tmp_dir_path / "marked_full.png"
+            image.save(marked_path)
 
-                marked_path = tmp_dir_path / f"marked_slice_{pdf_page_index:03d}.png"
-                slice_img.save(marked_path)
-
-                if pdf_page_index > 1:
-                    pdf.add_page()
-
-                pdf.set_font("Helvetica", "B", 12)
-                pdf.cell(0, 8, f"Screenshot Part {pdf_page_index}", new_x="LMARGIN", new_y="NEXT")
-                pdf.image(str(marked_path), x=pdf.l_margin, y=pdf.get_y(), w=content_width_mm)
-
-                segment_top = segment_bottom
-                pdf_page_index += 1
+            if pdf is None:
+                # Re-initialize PDF with dynamic continuous height
+                pdf = FPDF(format=(pdf_width_mm, content_height_mm + margin * 2 + 15))
+                pdf.set_auto_page_break(auto=False)
+                pdf.add_page()
+                
+                # Add Title
+                pdf.set_font("Helvetica", "B", 18)
+                pdf.cell(0, 12, "FunnelVision Teardown Report", new_x="LMARGIN", new_y="NEXT", align="C")
+            else:
+                pdf.add_page(format=(pdf_width_mm, content_height_mm + margin * 2 + 15))
+            
+            # Insert the single continuous image
+            pdf.image(str(marked_path), x=margin, y=pdf.get_y(), w=content_width_mm)
 
     # Text section fundamentally removed to render Claude analysis natively in Streamlit UI instead
     
