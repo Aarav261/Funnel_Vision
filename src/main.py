@@ -4,18 +4,12 @@ import json
 from pathlib import Path
 
 from pdf_generator import main as generate_report
-from scraper import scrape_page
-from scraper import collect_text_and_button_boxes
+from scraper import run_full_scrape
 from analyze_local import main as run_analysis
 from delete_screenshots import delete_screenshots
 
 async def run_scraper(url: str) -> None:
-    scrape_result = await scrape_page(url)
-    box_result = await collect_text_and_button_boxes(url)
-    payload = {
-        "scrape_page": scrape_result,
-        "collect_text_and_button_boxes": box_result,
-    }
+    payload = await run_full_scrape(url)
     output_path = Path("scrape_results.json")
     output_path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
     print(f"Saved scrape results to {output_path}")

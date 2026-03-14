@@ -22,8 +22,7 @@ sys.path.append(str(Path(__file__).parent / "src"))
 
 # Now we can import from src directly as if we are in it
 from pdf_generator import main as generate_report
-from scraper import scrape_page
-from scraper import collect_text_and_button_boxes
+from scraper import run_full_scrape
 from analyze_local import main as run_analysis
 from delete_screenshots import delete_screenshots
 
@@ -41,12 +40,8 @@ url = st.text_input("Enter Landing Page URL", placeholder="https://www.example.c
 async def run_pipeline(target_url: str):
     # 1. Scrape the website
     st.info(f"Scraping {target_url}... (This may take a minute)")
-    scrape_result = await scrape_page(target_url)
-    box_result = await collect_text_and_button_boxes(target_url)
-    payload = {
-        "scrape_page": scrape_result,
-        "collect_text_and_button_boxes": box_result,
-    }
+    payload = await run_full_scrape(target_url)
+    
     output_path = Path("scrape_results.json")
     output_path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
     

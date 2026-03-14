@@ -57,8 +57,8 @@ async def main():
         if img.mode in ("RGBA", "P"):
             img = img.convert("RGB")
         
-        # Claude limits dimensions to 8000px max
-        max_dim = 8000
+        # Claude limits dimensions to 8000px max, but 4000px is faster and cheaper
+        max_dim = 4000
         if img.height > max_dim or img.width > max_dim:
             if img.height > img.width:
                 new_height = max_dim
