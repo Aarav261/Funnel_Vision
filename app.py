@@ -101,7 +101,7 @@ def render_analysis_results(target_url: str) -> None:
         st.error("Failed to generate PDF.")
         return
 
-    st.success("✅ Analysis Complete!")
+    st.success("Analysis Complete")
 
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
