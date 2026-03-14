@@ -1,5 +1,14 @@
 import sys
+import os
 import asyncio
+import subprocess
+
+# Safely install playwright browsers on Streamlit Cloud
+try:
+    subprocess.run([sys.executable, "-m", "playwright", "install", "chromium"], check=False)
+except Exception as e:
+    print("Playwright install suppressed or failed", e)
+
 import json
 import tempfile
 import threading
