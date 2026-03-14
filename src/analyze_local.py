@@ -104,8 +104,9 @@ Provide scores from 1-10 with a balanced, extremely lenient approach:
 - 5-7: Functional, decent, but could use optimization (Average score for passing elements).
 - 8-10: Excellent, clear, and highly persuasive implementations.
 
-For every issue found, provide a highly specific, actionable `suggested_text_fix` on how to improve it while praising what they did right (if anything). 
-
+For every issue found, provide a highly specific, actionable `suggested_text_fix` on how to improve it while praising and highlighting what they did right (if anything). 
+Dont use generic suggestions like "Make the headline clearer" - be specific: "The headline should explicitly mention the transformation and ideal audience, e.g. 'Helping Busy Coaches Get More Clients with Less Tech Hassle'".
+Dont use dashes or arrows in your suggestions as they can cause encoding issues in the PDF generation.
 IMPORTANT: You must return a JSON object with exactly one key named 'issues'. Each item must map perfectly to the requested Pydantic schema."""
 
     message = HumanMessage(content=[
