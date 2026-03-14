@@ -1,244 +1,148 @@
 {
   "issues": [
     {
-      "element_name": "Primary CTA - Get Lifetime Access For Only $49",
+      "element_name": "Primary CTA Button - 'DETAILS HERE'",
       "bounding_box": {
-        "x": 788,
-        "y": 3265,
-        "width": 342,
-        "height": 68
-      },
-      "category": "Friction",
-      "score": 5,
-      "suggested_text_fix": "Yes! Give Me Lifetime Access For Just $49 → Lock In My Price Before It Rises"
-    },
-    {
-      "element_name": "Navigation CTA - Get Access (Top Bar)",
-      "bounding_box": {
-        "x": 66,
-        "y": 11,
-        "width": 97,
-        "height": 28
+        "x": 841,
+        "y": 677,
+        "width": 238,
+        "height": 54
       },
       "category": "Friction",
       "score": 4,
-      "suggested_text_fix": "Replace the generic '→ Get Access' with a benefit-driven label like 'Get Blueprints – $49' to reduce ambiguity and decision fatigue. Ensure only ONE CTA style is present in the nav bar."
+      "suggested_text_fix": "Replace 'DETAILS HERE' with a benefit-driven CTA like 'See How We Work Together' or 'Explore 1:1 Coaching With Kate' to reduce ambiguity and increase click motivation."
     },
     {
-      "element_name": "Hero Headline - Creator Blueprints",
+      "element_name": "Hero Subtitle - 'This is high-touch 1:1 strategic partnership for established entrepreneurs & leaders'",
       "bounding_box": {
-        "x": 510,
-        "y": 141,
-        "width": 900,
-        "height": 56
+        "x": 718,
+        "y": 556,
+        "width": 483,
+        "height": 59
+      },
+      "category": "Offer Clarity",
+      "score": 5,
+      "suggested_text_fix": "Replace with a transformation-focused statement: 'Finally step out of the day-to-day and lead the business you actually built — with a strategic partner who sees the full picture.' Make it outcome-driven, not descriptor-driven."
+    },
+    {
+      "element_name": "Hero Headline - '1:1 with Kate'",
+      "bounding_box": {
+        "x": 484,
+        "y": 411,
+        "width": 954,
+        "height": 122
       },
       "category": "Offer Clarity",
       "score": 4,
-      "suggested_text_fix": "The #1 Growth System for Creators: Proven Blueprints to Grow Your Audience, Build Authority, and Monetize Your Knowledge — Fast"
+      "suggested_text_fix": "Replace with a stronger hook headline that speaks to the ICA's pain or desire, e.g. 'You've Outgrown Where You Are. Let's Build What Comes Next.' — the current headline is a label, not a hook."
     },
     {
-      "element_name": "Hero Subheadline",
+      "element_name": "Body Copy Block - Problem Agitation Paragraph",
       "bounding_box": {
-        "x": 510,
-        "y": 213,
-        "width": 900,
-        "height": 117
+        "x": 450,
+        "y": 795,
+        "width": 1023,
+        "height": 169
       },
       "category": "Offer Clarity",
-      "score": 5,
-      "suggested_text_fix": "Stop guessing what to do next. Get instant access to an ever-growing library of step-by-step frameworks and printable blueprints — covering content creation, audience growth, copywriting, offer building, and sales automation — so you can scale your personal brand with total clarity."
-    },
-    {
-      "element_name": "Social Proof Bar - Over 8,000 Happy Customers",
-      "bounding_box": {
-        "x": 510,
-        "y": 353,
-        "width": 900,
-        "height": 20
-      },
-      "category": "Legitimacy",
-      "score": 5,
-      "suggested_text_fix": "⭐⭐⭐⭐⭐ Trusted by 8,000+ Creators & Business Owners — [Add 2–3 short named testimonials with measurable results directly below this bar, e.g., 'I grew from 0 to 12k followers in 60 days using the Hook Formulas Blueprint – Sarah M.']"
-    },
-    {
-      "element_name": "Section Headline - Formulas and Frameworks Based On Over a Decade of Testing",
-      "bounding_box": {
-        "x": 510,
-        "y": 1143,
-        "width": 900,
-        "height": 24
-      },
-      "category": "Legitimacy",
-      "score": 5,
-      "suggested_text_fix": "Battle-Tested Over 10+ Years & 8,000+ Customers: The Exact Frameworks I Used to Build a 6-Figure Creator Business From Scratch"
-    },
-    {
-      "element_name": "Section Subheadline - Get Total Clarity On How to Scale Your Personal Brand",
-      "bounding_box": {
-        "x": 510,
-        "y": 1180,
-        "width": 900,
-        "height": 140
-      },
-      "category": "Offer Clarity",
-      "score": 5,
-      "suggested_text_fix": "Most creators stay stuck because they lack a clear system. Creator Blueprints gives you the exact playbooks, formulas, and step-by-step frameworks to finally scale — without the overwhelm. If you can follow a blueprint, you can grow your brand."
-    },
-    {
-      "element_name": "Feature Bullet - Detailed Gameplans For Every Aspect of Your Business",
-      "bounding_box": {
-        "x": 460,
-        "y": 1680,
-        "width": 652,
-        "height": 94
-      },
-      "category": "Offer Clarity",
-      "score": 5,
-      "suggested_text_fix": "✅ Done-For-You Gameplans: Get a clear action plan for Strategy, Content, Copywriting, Offer Creation, Sales Automation & Self-Mastery — so you always know exactly what to do next."
-    },
-    {
-      "element_name": "Feature Bullet - All Current AND Future Frameworks Included",
-      "bounding_box": {
-        "x": 460,
-        "y": 2144,
-        "width": 303,
-        "height": 114
-      },
-      "category": "Willingness to Buy",
       "score": 6,
-      "suggested_text_fix": "🔒 Lifetime Access — Pay Once, Get Everything Forever: All current blueprints plus every new framework added going forward. The price increases as more content is added — lock in $49 today."
+      "suggested_text_fix": "Strong problem agitation copy — consider adding 1–2 bold callout lines (e.g. bolding 'you're the linchpin that everything depends on') to improve skim-readability and ensure key pain points land for fast-reading visitors."
     },
     {
-      "element_name": "Feature Bullet - Dozens of Business Growth Systems Organized Into a Searchable Database",
+      "element_name": "'That's where I come in' Section + Coaching Description",
       "bounding_box": {
-        "x": 808,
-        "y": 2144,
-        "width": 652,
-        "height": 98
+        "x": 455,
+        "y": 1181,
+        "width": 1013,
+        "height": 57
+      },
+      "category": "Legitimacy",
+      "score": 5,
+      "suggested_text_fix": "Add specific credentials, years of experience, number of clients coached, or industries served alongside this statement. Vague positioning ('I see the full landscape') needs anchoring with proof: e.g. '10+ years, 100+ business leaders coached across 12 industries.'"
+    },
+    {
+      "element_name": "Testimonial - Erica McCreedy",
+      "bounding_box": {
+        "x": 845,
+        "y": 1787,
+        "width": 589,
+        "height": 76
+      },
+      "category": "Legitimacy",
+      "score": 6,
+      "suggested_text_fix": "The testimonial reads as a written case study (authored by Kate, not Erica). Replace or supplement with a direct quote from Erica in her own words for stronger authenticity. Add a photo of Erica to increase trust signal."
+    },
+    {
+      "element_name": "Testimonial - Katie Godden outcomes list",
+      "bounding_box": {
+        "x": 1030,
+        "y": 2670,
+        "width": 441,
+        "height": 106
+      },
+      "category": "Legitimacy",
+      "score": 6,
+      "suggested_text_fix": "Outcomes listed ('Redesigned her business model', 'Repositioned her in the marketplace') are compelling but lack measurable specifics. Add metrics where possible: e.g. 'Repositioned as a leading expert — resulting in a 40% increase in inbound inquiries within 90 days.'"
+    },
+    {
+      "element_name": "Social Proof Section Header - 'Hear from some of my phenomenal clients...'",
+      "bounding_box": {
+        "x": 461,
+        "y": 1625,
+        "width": 738,
+        "height": 39
+      },
+      "category": "Legitimacy",
+      "score": 4,
+      "suggested_text_fix": "Replace generic header with a results-anchored statement: 'Real Results From Real Leaders' or 'Here's What Happens When You Stop Being the Bottleneck' — make the section headline do persuasion work, not just introduce."
+    },
+    {
+      "element_name": "Navigation Menu - No visible CTA button in nav",
+      "bounding_box": {
+        "x": 1197,
+        "y": 29,
+        "width": 163,
+        "height": 36
       },
       "category": "Friction",
-      "score": 6,
-      "suggested_text_fix": "🗂️ Searchable Blueprint Database + Miro Board: Instantly find the exact framework you need. No more hunting through folders — new blueprints added every month, all organized for fast action."
-    },
-    {
-      "element_name": "Feature Bullet - Includes Access to Blueprints FM Private Podcast",
-      "bounding_box": {
-        "x": 1156,
-        "y": 2627,
-        "width": 304,
-        "height": 99
-      },
-      "category": "Offer Clarity",
-      "score": 6,
-      "suggested_text_fix": "🎙️ BONUS: Blueprints FM Private Podcast — Get audio breakdowns of every blueprint so you can learn on the go, PLUS a free starter course to hit the ground running immediately."
-    },
-    {
-      "element_name": "CTA Section - Get Lifetime Access For Only $49 (Mid-Page)",
-      "bounding_box": {
-        "x": 788,
-        "y": 3265,
-        "width": 342,
-        "height": 68
-      },
-      "category": "Willingness to Buy",
       "score": 4,
-      "suggested_text_fix": "Add urgency and risk-reversal directly below this CTA: '✅ 30-Day Money-Back Guarantee — If you don't find at least one blueprint that transforms your business, I'll refund every penny. No questions asked.' Also include a price-anchoring statement: 'One framework could easily make you 100x your investment.'"
+      "suggested_text_fix": "Add a high-contrast CTA button in the navigation (e.g. 'Apply to Work With Kate') so that visitors who scroll back to the top have an immediate, low-friction conversion path without having to hunt for the CTA."
     },
     {
-      "element_name": "Bundle Preview Section Headline - Here Are Just Some of the Many Blueprints Included",
+      "element_name": "Risk Reversal / Guarantee Section",
       "bounding_box": {
-        "x": 510,
-        "y": 3393,
-        "width": 900,
-        "height": 133
-      },
-      "category": "Offer Clarity",
-      "score": 6,
-      "suggested_text_fix": "Here's a Taste of What's Inside Your Creator Blueprints Library (50+ Frameworks & Growing): Each blueprint is designed to give you an immediate, actionable win."
-    },
-    {
-      "element_name": "Blueprint Preview - 101 Fill-in-the-Blank Hook Formulas",
-      "bounding_box": {
-        "x": 480,
-        "y": 3601,
-        "width": 279,
-        "height": 102
-      },
-      "category": "Offer Clarity",
-      "score": 7,
-      "suggested_text_fix": "101 Fill-in-the-Blank Hook Formulas — Instantly capture attention and force the algorithm to push your content to thousands of new people. Just fill in the blanks and post."
-    },
-    {
-      "element_name": "Blueprint Preview - 77 Idea Generation Writing Prompts",
-      "bounding_box": {
-        "x": 820,
-        "y": 3601,
-        "width": 279,
-        "height": 102
-      },
-      "category": "Offer Clarity",
-      "score": 7,
-      "suggested_text_fix": "77 Idea Generation Prompts for Creators — Never stare at a blank screen again. Pull from 77 ready-to-use content ideas engineered to resonate with your audience and drive engagement."
-    },
-    {
-      "element_name": "Blueprint Preview - 21 Copywriting Prompts For Thought Leaders",
-      "bounding_box": {
-        "x": 1161,
-        "y": 3601,
-        "width": 279,
-        "height": 102
-      },
-      "category": "Offer Clarity",
-      "score": 7,
-      "suggested_text_fix": "21 Copywriting Prompts for Thought Leaders — Stand out with more persuasive, emotionally compelling content that positions you as the go-to authority in your niche."
-    },
-    {
-      "element_name": "Missing: Named Testimonials with Measurable Outcomes",
-      "bounding_box": {
-        "x": 510,
-        "y": 353,
-        "width": 900,
-        "height": 50
-      },
-      "category": "Legitimacy",
-      "score": 2,
-      "suggested_text_fix": "Add 3–5 specific, named testimonials with measurable results directly after the social proof bar, e.g.: '\"Using the Content System Blueprint, I went from posting twice a week with 200 views to 3 viral posts in 30 days with 40k+ impressions.\" — Jake T., Business Coach, Austin TX.' Include a profile photo for each to maximize credibility."
-    },
-    {
-      "element_name": "Missing: FAQ / Objection-Handling Section",
-      "bounding_box": {
-        "x": 510,
-        "y": 3265,
-        "width": 900,
-        "height": 100
+        "x": 450,
+        "y": 795,
+        "width": 1023,
+        "height": 169
       },
       "category": "Willingness to Buy",
       "score": 2,
-      "suggested_text_fix": "Add a dedicated FAQ section above the final CTA to address key objections: 'Is this for beginners or advanced creators?' / 'How is this different from a course?' / 'Will new blueprints cost extra?' / 'What if I'm not satisfied?' / 'How do I access the blueprints?' Removing these objections silently increases conversion rate significantly."
+      "suggested_text_fix": "No visible guarantee, refund policy, or risk-reversal language detected on the page. Add a section near the pricing/CTA area with language such as: 'If after our first session you don't feel this is the right fit, I'll refund your investment — no questions asked.' This dramatically reduces purchase hesitation for high-ticket offers."
     },
     {
-      "element_name": "Missing: Personal Introduction / Creator Bio with Credibility Markers",
+      "element_name": "FAQ Section",
       "bounding_box": {
-        "x": 510,
-        "y": 1143,
-        "width": 900,
-        "height": 80
+        "x": 450,
+        "y": 1273,
+        "width": 1023,
+        "height": 248
       },
-      "category": "Legitimacy",
+      "category": "Willingness to Buy",
+      "score": 2,
+      "suggested_text_fix": "No FAQ section detected. For a high-ticket 1:1 coaching offer, an FAQ is essential for objection handling. Add questions like: 'How is this different from other coaching?', 'What does a typical month look like?', 'Who is this NOT for?', and 'What results can I realistically expect?'"
+    },
+    {
+      "element_name": "Offer Clarity - Next Steps / Process Transparency",
+      "bounding_box": {
+        "x": 461,
+        "y": 1273,
+        "width": 530,
+        "height": 248
+      },
+      "category": "Willingness to Buy",
       "score": 3,
-      "suggested_text_fix": "Add a dedicated 'About the Creator' section with a clear headshot, name, and 3–4 credibility proof points (e.g., '10+ years in digital marketing', 'helped 8,000+ creators', 'generated $X in revenue using these exact systems'). Buyers need to trust WHO is teaching before they invest, even at a low price point."
-    },
-    {
-      "element_name": "Missing: Explicit Guarantee / Risk Reversal Statement",
-      "bounding_box": {
-        "x": 510,
-        "y": 3265,
-        "width": 900,
-        "height": 68
-      },
-      "category": "Willingness to Buy",
-      "score": 2,
-      "suggested_text_fix": "Add a boldly styled guarantee block near every CTA: '🛡️ 30-Day No-Questions-Asked Money-Back Guarantee: Try every single blueprint for a full 30 days. If you don't see the value, email us and we'll refund you immediately — no hoops, no hassle. You have zero risk.' This alone can increase conversions by 15–30% at this price point."
+      "suggested_text_fix": "There is no visible 'Here's what happens after you click' explanation. Add a simple 3-step process section near the CTA: e.g. '1. Click Apply → 2. We schedule a discovery call → 3. We begin your custom strategy.' Reducing mystery around next steps significantly increases conversion on premium offers."
     }
   ]
 }

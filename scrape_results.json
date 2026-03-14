@@ -1,1341 +1,904 @@
 {
   "scrape_page": {
-    "url": "https://www.paidtobringpeace.com/blueprints",
-    "headline": "Creator Blueprints",
+    "url": "https://www.katerubybradshaw.com/coaching",
+    "headline": "1:1 with Kate",
     "buttons": [
-      "\u2192 Get Access",
-      "Get Lifetime Access For Only $49 \u2192",
-      "Unlock Full Access Now \u2192",
-      "Get Lifetime Access For Only $49 \u2192",
-      "Get Lifetime Access For Only $49 \u2192"
+      "DETAILS HERE",
+      "Register to work with me",
+      "REGISTER FOR A 3-MONTH 1:1 PACKAGE",
+      "REGISTER FOR A 6-MONTH 1:1 PACKAGE",
+      "REGISTER FOR A 3-MONTH 1:1 PACKAGE",
+      "REGISTER FOR A 6-MONTH 1:1 PACKAGE",
+      "REGISTER FOR A 3-MONTH 1:1 PACKAGE",
+      "REGISTER FOR A 6-MONTH 1:1 PACKAGE"
     ],
-    "screenshot_path": "page_screenshots/01_www_paidtobringpeace_com_blueprints.png",
+    "screenshot_path": "page_screenshots/01_www_katerubybradshaw_com_coaching.png",
     "screenshot_paths": [
-      "page_screenshots/01_www_paidtobringpeace_com_blueprints.png"
+      "page_screenshots/01_www_katerubybradshaw_com_coaching.png"
     ]
   },
   "collect_text_and_button_boxes": {
-    "url": "https://www.paidtobringpeace.com/blueprints",
+    "url": "https://www.katerubybradshaw.com/coaching",
     "button_boxes": [],
     "text_boxes": [
       {
-        "text": "\u2192 Get Access",
-        "x": 66,
-        "y": 11,
-        "width": 96.34375,
+        "text": "<img src=\"//static.showit.co/400/NzLkuvHx3rJD6btzhH7Qdg/158279/kate_ruby_bradshaw_3x.png\" class=\"se-img\" alt=\"\" title=\"Kate Ruby Bradshaw@3x\"/>",
+        "x": 10,
+        "y": 13,
+        "width": 212,
+        "height": 73,
+        "type": "text"
+      },
+      {
+        "text": "Menu",
+        "x": 1802,
+        "y": 22,
+        "width": 83,
+        "height": 46,
+        "type": "text"
+      },
+      {
+        "text": "Menu",
+        "x": 1802,
+        "y": 22,
+        "width": 83,
+        "height": 46,
+        "type": "text"
+      },
+      {
+        "text": "About",
+        "x": 1084.796875,
+        "y": 29,
+        "width": 89.46875,
+        "height": 36.390625,
+        "type": "text"
+      },
+      {
+        "text": "About",
+        "x": 1084.796875,
+        "y": 29,
+        "width": 89.46875,
+        "height": 36.390625,
+        "type": "text"
+      },
+      {
+        "text": "Work With Me\n      \n        1:1 Coaching",
+        "x": 1197.0625,
+        "y": 29,
+        "width": 163.1875,
+        "height": 36.390625,
+        "type": "text"
+      },
+      {
+        "text": "Work With Me",
+        "x": 1197.0625,
+        "y": 29,
+        "width": 163.1875,
+        "height": 36.390625,
+        "type": "text"
+      },
+      {
+        "text": "1:1 Coaching",
+        "x": 1197.0625,
+        "y": 65.390625,
+        "width": 153.71875,
         "height": 28,
         "type": "text"
       },
       {
-        "text": "\u2192 Get Access",
-        "x": 66,
-        "y": 16,
-        "width": 96.34375,
-        "height": 17,
-        "type": "text"
-      },
-      {
-        "text": "Top \u2191",
-        "x": 180.34375,
-        "y": 11,
-        "width": 41.65625,
+        "text": "1:1 Coaching",
+        "x": 1197.0625,
+        "y": 65.390625,
+        "width": 153.71875,
         "height": 28,
         "type": "text"
       },
       {
-        "text": "Top \u2191",
-        "x": 180.34375,
-        "y": 16,
-        "width": 41.65625,
-        "height": 17,
+        "text": "Upcoming Events",
+        "x": 1383.046875,
+        "y": 29,
+        "width": 196.40625,
+        "height": 36.390625,
         "type": "text"
       },
       {
-        "text": "Introducing\u2026",
-        "x": 510,
-        "y": 106,
-        "width": 900,
-        "height": 19.5,
+        "text": "Upcoming Events",
+        "x": 1383.046875,
+        "y": 29,
+        "width": 196.40625,
+        "height": 36.390625,
         "type": "text"
       },
       {
-        "text": "Creator Blueprints",
-        "x": 510,
-        "y": 141.5,
-        "width": 900,
-        "height": 55.90625,
+        "text": "Podcast",
+        "x": 1602.25,
+        "y": 29,
+        "width": 112.953125,
+        "height": 36.390625,
         "type": "text"
       },
       {
-        "text": "Creator Blueprints",
-        "x": 776.546875,
-        "y": 141.5,
-        "width": 366.90625,
-        "height": 55.90625,
+        "text": "Podcast",
+        "x": 1602.25,
+        "y": 29,
+        "width": 112.953125,
+        "height": 36.390625,
         "type": "text"
       },
       {
-        "text": "An Ever-Growing Collection of Detailed Frameworks and Printable Blueprints to Help You Grow Your Audience, Make High Performing Content, Monetize Your Knowledge, and More",
-        "x": 510,
-        "y": 213.40625,
-        "width": 900,
-        "height": 117,
+        "text": "1:1 with Kate",
+        "x": 484,
+        "y": 411,
+        "width": 954,
+        "height": 122,
         "type": "text"
       },
       {
-        "text": "\u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f Over 8,000 Happy Customers",
-        "x": 510,
-        "y": 353.40625,
-        "width": 900,
-        "height": 19.5,
+        "text": "This is high-touch 1:1 strategic partnership for established entrepreneurs & leaders",
+        "x": 718,
+        "y": 556,
+        "width": 483,
+        "height": 59,
         "type": "text"
       },
       {
-        "text": "Formulas and Frameworks Based On Over a Decade of Testing",
-        "x": 510,
-        "y": 1143.90625,
-        "width": 900,
-        "height": 23.40625,
+        "text": "DETAILS HERE",
+        "x": 841,
+        "y": 677,
+        "width": 238,
+        "height": 54,
         "type": "text"
       },
       {
-        "text": "Get Total Clarity On How to Scale Your Personal Brand Using These Tested and Proven Systems and Processes For Streamlined Business Growth",
-        "x": 510,
-        "y": 1180.3125,
-        "width": 900,
-        "height": 140.390625,
+        "text": "DETAILS HERE",
+        "x": 841,
+        "y": 677,
+        "width": 238,
+        "height": 54,
         "type": "text"
       },
       {
-        "text": "Get Total Clarity On How to Scale Your Personal Brand Using These Tested and Proven Systems and Processes For Streamlined Business Growth",
-        "x": 510,
-        "y": 1180.3125,
-        "width": 900,
-        "height": 140.390625,
+        "text": "DETAILS HERE",
+        "x": 907.546875,
+        "y": 695.90625,
+        "width": 104.90625,
+        "height": 18.1875,
         "type": "text"
       },
       {
-        "text": "Detailed Gameplans For Every Aspect of Your Business (Strategy, Content Creation, Copywriting, Offer Creation, Sales Automation, Self-Mastery, and Much More)",
-        "x": 460,
-        "y": 1680.703125,
-        "width": 651.65625,
-        "height": 93.609375,
+        "text": "You've built a business that makes money, gets results, and has a good reputation. However, what used to feel like momentum, now feels like a ceiling. Success has created its own trap: you\u2019re the linchpin that everything depends on. You have an assistant or team, yet you\u2019re still in it all. You can carry it (you always have), but you\u2019re starting to realise that even that mindset itself is a key factor preventing the next level of growth.",
+        "x": 450,
+        "y": 795,
+        "width": 1023,
+        "height": 169,
         "type": "text"
       },
       {
-        "text": "Printable Guides, Content Creation Formulas, Copywriting Prompts, and More (Fully Downloadable PDF's)",
-        "x": 1156.65625,
-        "y": 1680.703125,
-        "width": 303.34375,
-        "height": 98.8125,
+        "text": "That\u2019s where I come in.",
+        "x": 455,
+        "y": 1181,
+        "width": 1013,
+        "height": 57,
         "type": "text"
       },
       {
-        "text": "All Current AND Future Frameworks Included (I'll Be Adding to This Collection For Years to Come)",
-        "x": 460,
-        "y": 2144.515625,
-        "width": 303.328125,
-        "height": 114.375,
+        "text": "I don't just see where you're at, I see across the entire landscape of what's going on - both within your business, and within your leadership. I help pinpoint and solve foundational issues, while building a business capable of holding the vision you want. A business that frees you up to operate at the level of leadership and impact you're meant for.",
+        "x": 461,
+        "y": 1273,
+        "width": 530,
+        "height": 248,
         "type": "text"
       },
       {
-        "text": "Dozens of Business Growth Systems and Copywriting Formulas Organized Into a Searchable Database and Miro Board, w/ New Frameworks Added Every Month",
-        "x": 808.328125,
-        "y": 2144.515625,
-        "width": 651.671875,
-        "height": 97.5,
+        "text": "Hear from some of my phenomenal clients...",
+        "x": 461,
+        "y": 1625,
+        "width": 738,
+        "height": 39,
         "type": "text"
       },
       {
-        "text": "Video Explanations of Most Blueprints So You Know Exactly How to Apply Them to Your Situation",
-        "x": 460,
-        "y": 2688.03125,
-        "width": 651.65625,
-        "height": 65,
+        "text": "Erica McCreedy",
+        "x": 845,
+        "y": 1787,
+        "width": 589,
+        "height": 76,
         "type": "text"
       },
       {
-        "text": "Includes Access to Blueprints FM, a Private Podcast With Audio Breakdowns of All My Blueprints Plus a Free Starter Course",
-        "x": 1156.65625,
-        "y": 2627.234375,
-        "width": 303.34375,
-        "height": 98.8125,
-        "type": "text"
-      },
-      {
-        "text": "Get Lifetime Access For Only $49 \u2192All Current and Future Frameworks Included",
-        "x": 788.96875,
-        "y": 3265.921875,
-        "width": 342.046875,
-        "height": 67.609375,
-        "type": "text"
-      },
-      {
-        "text": "Get Lifetime Access For Only $49 \u2192",
-        "x": 808.96875,
-        "y": 3280.921875,
-        "width": 302.046875,
-        "height": 20.40625,
-        "type": "text"
-      },
-      {
-        "text": "All Current and Future Frameworks Included",
-        "x": 847.5,
-        "y": 3305.328125,
-        "width": 224.96875,
-        "height": 13.203125,
-        "type": "text"
-      },
-      {
-        "text": "Here Are Just Some of the Many Blueprints Included in This Bundle:",
-        "x": 510,
-        "y": 3393.53125,
-        "width": 900,
-        "height": 132.59375,
-        "type": "text"
-      },
-      {
-        "text": "Here Are Just Some of the Many Blueprints Included in This Bundle:",
-        "x": 510,
-        "y": 3393.53125,
-        "width": 900,
-        "height": 132.59375,
-        "type": "text"
-      },
-      {
-        "text": "101 Fill-in-the-Blank Hook Formulas to Help You Capture Attention and Force the Algorithms to Spread Your Content to More People",
-        "x": 480,
-        "y": 3601.125,
-        "width": 278.65625,
-        "height": 102,
-        "type": "text"
-      },
-      {
-        "text": "101 Fill-in-the-Blank Hook Formulas",
-        "x": 504.59375,
-        "y": 3603.125,
-        "width": 219.96875,
-        "height": 45.5,
-        "type": "text"
-      },
-      {
-        "text": "77 Idea Generation Writing Prompts For Creators: Use These Whenever You Need a Quick Idea to Make a Piece of Content About",
-        "x": 820.65625,
-        "y": 3601.125,
-        "width": 278.671875,
-        "height": 102,
-        "type": "text"
-      },
-      {
-        "text": "77 Idea Generation Writing Prompts",
-        "x": 832.984375,
-        "y": 3603.125,
-        "width": 235.796875,
-        "height": 45.5,
-        "type": "text"
-      },
-      {
-        "text": "21 Copywriting Prompts For Thought Leaders: Unique Tactics to Share Your Message in More Persuasive and Engaging Ways",
-        "x": 1161.328125,
-        "y": 3601.125,
-        "width": 278.671875,
-        "height": 102,
-        "type": "text"
-      },
-      {
-        "text": "21 Copywriting Prompts For Thought Leaders",
-        "x": 1163.375,
-        "y": 3603.125,
-        "width": 250.0625,
-        "height": 45.5,
-        "type": "text"
-      },
-      {
-        "text": ":",
-        "x": 1298.96875,
-        "y": 3628.625,
-        "width": 8.890625,
-        "height": 20,
-        "type": "text"
-      },
-      {
-        "text": "The Hero's Journey 12-Phase Storytelling Framework: A Time-Tested Formula For Capturing the Mind and Heart of Your Audience",
-        "x": 480,
-        "y": 3783.125,
-        "width": 278.65625,
-        "height": 102,
-        "type": "text"
-      },
-      {
-        "text": "The Hero's Journey 12-Phase Storytelling Framework",
-        "x": 492.21875,
-        "y": 3785.125,
-        "width": 247.578125,
-        "height": 45.5,
-        "type": "text"
-      },
-      {
-        "text": ":",
-        "x": 677.421875,
-        "y": 3810.625,
-        "width": 8.40625,
-        "height": 20,
-        "type": "text"
-      },
-      {
-        "text": "The Pillar Content Flywheel: A Repeatable 15-Step Process For Making High Quality Content to Power the Growth of Your Business",
-        "x": 820.65625,
-        "y": 3783.125,
-        "width": 278.671875,
-        "height": 102,
-        "type": "text"
-      },
-      {
-        "text": "The Pillar Content Flywheel:",
-        "x": 841.40625,
-        "y": 3785.125,
-        "width": 221.71875,
-        "height": 20,
-        "type": "text"
-      },
-      {
-        "text": "21 Core Principles of Persuasion: Implement These to Generate More Sales, Get More Views, and Become a More Sought-After Leader",
-        "x": 1161.328125,
-        "y": 3783.125,
-        "width": 278.671875,
-        "height": 102,
-        "type": "text"
-      },
-      {
-        "text": "21 Core Principles of Persuasion:",
-        "x": 1171,
-        "y": 3785.125,
-        "width": 259.328125,
-        "height": 20,
-        "type": "text"
-      },
-      {
-        "text": "Content Repurposing Formulas: How to Create Less But Publish More By Strategically Repurposing Content (You Only Have to Create ONE Piece of Content Per Week)",
-        "x": 480,
-        "y": 3965.125,
-        "width": 278.65625,
-        "height": 127.5,
-        "type": "text"
-      },
-      {
-        "text": "Content Repurposing Formulas:",
-        "x": 493.421875,
-        "y": 3967.125,
-        "width": 251.796875,
-        "height": 20,
-        "type": "text"
-      },
-      {
-        "text": "The Splinter Scaling Method: A Highly Efficient Way to Scale Your Business Without Added Complexity or Creating Multiple Different Products and Services",
-        "x": 820.65625,
-        "y": 3965.125,
-        "width": 278.671875,
-        "height": 127.5,
-        "type": "text"
-      },
-      {
-        "text": "The Splinter Scaling Method:",
-        "x": 837.75,
-        "y": 3967.125,
-        "width": 229.046875,
-        "height": 20,
-        "type": "text"
-      },
-      {
-        "text": "10 Hook Points: Use These In Every Piece of Content to Keep Attention and Encourage the Algorithms to Spread Your Message to the Masses",
-        "x": 1161.328125,
-        "y": 3965.125,
-        "width": 278.671875,
-        "height": 102,
-        "type": "text"
-      },
-      {
-        "text": "10 Hook Points:",
-        "x": 1164.328125,
-        "y": 3967.125,
-        "width": 122.0625,
-        "height": 20,
-        "type": "text"
-      },
-      {
-        "text": "How to Engineer Systems: 3 Types of Systems You Need to Implement to Monetize Your Knowledge and Create a Business That Gives You True Freedom",
-        "x": 480,
-        "y": 4172.625,
-        "width": 278.65625,
-        "height": 127.5,
-        "type": "text"
-      },
-      {
-        "text": "How to Engineer Systems:",
-        "x": 483.265625,
-        "y": 4174.625,
-        "width": 208.125,
-        "height": 20,
-        "type": "text"
-      },
-      {
-        "text": "The Priority Planning System: The Simple But Powerful System I Use to Plan My Weeks and Keep My Work Hours to Under 20 Per Week",
-        "x": 820.65625,
-        "y": 4172.625,
-        "width": 278.671875,
-        "height": 102,
-        "type": "text"
-      },
-      {
-        "text": "The Priority Planning System:",
-        "x": 825.5625,
-        "y": 4174.625,
-        "width": 234.984375,
-        "height": 20,
-        "type": "text"
-      },
-      {
-        "text": "Making Unique Methodologies: Formulas For Crafting, Naming, and Conveying the Benefits of Your Unique Systems (This Makes \"Competition\" Irrelevant)",
-        "x": 1161.328125,
-        "y": 4172.625,
-        "width": 278.671875,
-        "height": 127.5,
-        "type": "text"
-      },
-      {
-        "text": "Making Unique Methodologies:",
-        "x": 1176.90625,
-        "y": 4174.625,
-        "width": 247.515625,
-        "height": 20,
-        "type": "text"
-      },
-      {
-        "text": "One Page Business Growth Plan: Exactly What to Focus On Daily, Weekly, and Monthly to Make Consistent Progress in Your Business Without Burning Out",
-        "x": 480,
-        "y": 4380.125,
-        "width": 278.65625,
-        "height": 127.5,
-        "type": "text"
-      },
-      {
-        "text": "One Page Business Growth Plan:",
-        "x": 490.484375,
-        "y": 4382.125,
-        "width": 257.6875,
-        "height": 20,
-        "type": "text"
-      },
-      {
-        "text": "The Personal Brand Growth Engine: A Streamlined, Highly Systemized and Semi-Automated Growth Strategy to Scale Your Personal Brand With Peace of Mind",
-        "x": 820.65625,
-        "y": 4380.125,
-        "width": 278.671875,
-        "height": 127.5,
-        "type": "text"
-      },
-      {
-        "text": "The Personal Brand Growth Engine:",
-        "x": 847.09375,
-        "y": 4382.125,
-        "width": 225,
-        "height": 45.5,
-        "type": "text"
-      },
-      {
-        "text": "Offer Engineering Formulas: Exactly How to Structure Scalable Programs and Make \"Irresistible\" Offers That People Line Up to Buy",
-        "x": 1161.328125,
-        "y": 4380.125,
-        "width": 278.671875,
-        "height": 102,
-        "type": "text"
-      },
-      {
-        "text": "Offer Engineering Formulas:",
-        "x": 1189.328125,
-        "y": 4382.125,
-        "width": 222.671875,
-        "height": 20,
-        "type": "text"
-      },
-      {
-        "text": "Rapid Offer Launch Fill-in-the-Blank Sales Copy Document: Need to Test Your Offer and Launch It Fast (Like Today)? Just Use This Simple Doc, Fill-in-the-Blanks, and Send It Out to See If Anyone Bites",
-        "x": 480,
-        "y": 4587.625,
-        "width": 278.65625,
-        "height": 153,
-        "type": "text"
-      },
-      {
-        "text": "Rapid Offer Launch Fill-in-the-Blank Sales Copy Document:",
-        "x": 482.796875,
-        "y": 4589.625,
-        "width": 256.703125,
-        "height": 45.5,
-        "type": "text"
-      },
-      {
-        "text": "Tested & Proven Headline Formulas For Sales Page Copy: Just Fill in the Blanks. These Headline Formulas Will Help You Better Convey the Benefits of Your Unique Solutions",
-        "x": 820.65625,
-        "y": 4587.625,
-        "width": 278.671875,
-        "height": 153,
-        "type": "text"
-      },
-      {
-        "text": "Tested & Proven Headline Formulas For Sales Page Copy:",
-        "x": 837.734375,
-        "y": 4589.625,
-        "width": 244.515625,
-        "height": 45.5,
-        "type": "text"
-      },
-      {
-        "text": "Content Creation Formulas: Dozens of Ways to Share Your Message in More Persuasive and Engaging Ways (I've Used These Formulas to Generate Tens of Millions of Views On My Videos)",
-        "x": 1161.328125,
-        "y": 4587.625,
-        "width": 278.671875,
-        "height": 153,
-        "type": "text"
-      },
-      {
-        "text": "Content Creation Formulas:",
-        "x": 1191.625,
-        "y": 4589.625,
-        "width": 218.0625,
-        "height": 20,
-        "type": "text"
-      },
-      {
-        "text": "And much more. New frameworks and blueprints added on the regular.",
-        "x": 510,
-        "y": 4815.625,
-        "width": 900,
-        "height": 27.296875,
-        "type": "text"
-      },
-      {
-        "text": "And much more. New frameworks and blueprints added on the regular.",
-        "x": 628.046875,
-        "y": 4815.625,
-        "width": 663.890625,
-        "height": 27.296875,
-        "type": "text"
-      },
-      {
-        "text": "Get Lifetime Access For Only $49 \u2192All Current and Future Frameworks Included",
-        "x": 788.96875,
-        "y": 4892.921875,
-        "width": 342.046875,
-        "height": 67.609375,
-        "type": "text"
-      },
-      {
-        "text": "Get Lifetime Access For Only $49 \u2192",
-        "x": 808.96875,
-        "y": 4907.921875,
-        "width": 302.046875,
-        "height": 20.40625,
-        "type": "text"
-      },
-      {
-        "text": "All Current and Future Frameworks Included",
-        "x": 847.5,
-        "y": 4932.328125,
-        "width": 224.96875,
-        "height": 13.203125,
-        "type": "text"
-      },
-      {
-        "text": "Systems Are the Key to Personal Freedom, Creative Clarity, and Efficient Business Growth",
-        "x": 510,
-        "y": 5025.53125,
-        "width": 900,
-        "height": 93.59375,
-        "type": "text"
-      },
-      {
-        "text": "Systems",
-        "x": 520.875,
-        "y": 5026.53125,
-        "width": 150.796875,
-        "height": 44,
-        "type": "text"
-      },
-      {
-        "text": "The goal: a 20 hour work week (or less) doing work you love.",
-        "x": 510,
-        "y": 5162.125,
-        "width": 900,
-        "height": 58.8125,
-        "type": "text"
-      },
-      {
-        "text": "How are you gonna make it happen?",
-        "x": 510,
-        "y": 5220.9375,
-        "width": 900,
-        "height": 58.8125,
-        "type": "text"
-      },
-      {
-        "text": "You need to divorce time from income.And the only way to do that is by leveraging the power of systems.After becoming a father, I realized I couldn't afford to run my business haphazardly anymore. I needed to create hyper-efficient systems so that my business could run well without constant input from me.Because I have a life outside of business that I want to enjoy. Like seeing my daughter grow and spending an abundance of quality time with her\u2026",
-        "x": 510,
-        "y": 5279.75,
-        "width": 900,
-        "height": 294.0625,
-        "type": "text"
-      },
-      {
-        "text": "For Creators Who Aren't All About the \"Hustle\" and Want to Systemize Their Business to Get OFF the Hamster Wheel",
-        "x": 510,
-        "y": 6093.8125,
-        "width": 900,
-        "height": 83.1875,
-        "type": "text"
-      },
-      {
-        "text": "I'm not about the hustle culture. Quite the opposite. I believe a business should be a vehicle for serving others and creating freedom.It shouldn't be another job that you're chained to\u2026Although there will always be some work involved to maintain and grow your business, it's my opinion that there's absolutely zero reason any founder needs to be working more than 20 hours a week on their business (unless they truly want to).But that's not really possible without utilizing proven systems.Fortunately, I've spent the past decade as a full-time creator trying a whole bunch of things to figure out what works and what doesn't. After a LOT of trial and error, I've developed the proven systems that I'm offering to you on this page.These frameworks, blueprints, and printable guides will help you systemize all aspects of your business so you can work less, achieve more, and create a life of true freedom.They'll show you how to create offers people love to buy, create content people love to consume, automate your sales, systemize your marketing, write better copy, and much more.New frameworks are added every month and you get LIFETIME access to all updates (I plan to add to this collection for years to come).I'm not sure how much longer I'll be offering lifetime access, but you can lock it in if you decide to purchase today.All the details are on this page. When you're ready to unlock everything, just click the button and complete your checkout. You'll get immediate access to everything on the very next page after completing your order.If anything isn't clear, just shoot me an email at Beau@PaidtoBringPeace.comHope to see ya on the inside!Peace",
-        "x": 510,
-        "y": 6220,
-        "width": 900,
-        "height": 1058.625,
-        "type": "text"
-      },
-      {
-        "text": "Hey, I'm Beau \u2014 a father and a multi-passionate creator who values family, freedom, and inner peace.",
-        "x": 510,
-        "y": 7348.625,
-        "width": 900,
-        "height": 91,
-        "type": "text"
-      },
-      {
-        "text": "I started my first online business back in 2013 when I fell in love with the idea of being a \"knowledge worker\" and getting paid for my insights.",
-        "x": 899,
-        "y": 7489.625,
-        "width": 511,
-        "height": 79.78125,
-        "type": "text"
-      },
-      {
-        "text": "Since then, I've built multiple online businesses and launched dozens of digital products.",
-        "x": 899,
-        "y": 7591.8125,
-        "width": 511,
-        "height": 53.1875,
-        "type": "text"
-      },
-      {
-        "text": "In 2019, I co-founded one of the fastest growing education companies in Asia (Strive For Excellence LLC).",
-        "x": 899,
-        "y": 7667.40625,
-        "width": 511,
-        "height": 53.1875,
-        "type": "text"
-      },
-      {
-        "text": "In 2022, I started teaching others everything I know about marketing, copywriting, and building systems.",
-        "x": 899,
-        "y": 7743,
-        "width": 511,
-        "height": 53.1875,
-        "type": "text"
-      },
-      {
-        "text": "I've grown my new brand to over 100,000 followers and a healthy income and now my focus is on helping creators like yourself do something similar.",
-        "x": 899,
-        "y": 7818.59375,
-        "width": 511,
-        "height": 79.78125,
-        "type": "text"
-      },
-      {
-        "text": "On this page you can get all the frameworks and systems I've used to scale my personal brand and successfully monetize my knowledge online \ud83d\udc47",
-        "x": 899,
-        "y": 7924.96875,
-        "width": 511,
-        "height": 79.78125,
-        "type": "text"
-      },
-      {
-        "text": "+New Blueprints Added Every Single Month - Lock In Lifetime Access Today",
-        "x": 460,
-        "y": 8475.75,
-        "width": 1000,
-        "height": 30,
-        "type": "text"
-      },
-      {
-        "text": "LIFETIME ACCESS",
-        "x": 1116.96875,
-        "y": 8585.75,
-        "width": 137.03125,
-        "height": 22.5,
-        "type": "text"
-      },
-      {
-        "text": "Get Access For $299",
-        "x": 1001.484375,
-        "y": 8610.25,
-        "width": 368,
-        "height": 44.40625,
-        "type": "text"
-      },
-      {
-        "text": "Get Access For Only $49",
-        "x": 1001.484375,
-        "y": 8654.65625,
-        "width": 368,
-        "height": 37.203125,
-        "type": "text"
-      },
-      {
-        "text": "Unlock Full Access Now \u2192",
-        "x": 999.953125,
-        "y": 8699.859375,
-        "width": 371.078125,
-        "height": 56,
-        "type": "text"
-      },
-      {
-        "text": "Unlock Full Access Now \u2192",
-        "x": 1021.953125,
-        "y": 8712.859375,
-        "width": 327.078125,
-        "height": 30,
-        "type": "text"
-      },
-      {
-        "text": "Dozens of Detailed Frameworks and Business Growth Systems (New Ones Added Monthly)",
-        "x": 999.953125,
-        "y": 8771.859375,
-        "width": 371.078125,
-        "height": 42,
-        "type": "text"
-      },
-      {
-        "text": "Dozens of Detailed Frameworks and Business Growth Systems (New Ones Added Monthly)",
-        "x": 1019.3125,
-        "y": 8771.859375,
-        "width": 351.71875,
-        "height": 42,
-        "type": "text"
-      },
-      {
-        "text": "Lifetime Access to All Current AND Future Blueprints (I'll Be Adding to This For Years)",
-        "x": 999.953125,
-        "y": 8823.65625,
-        "width": 371.078125,
-        "height": 42,
-        "type": "text"
-      },
-      {
-        "text": "Lifetime Access to All Current AND Future Blueprints (I'll Be Adding to This For Years)",
-        "x": 1019.3125,
-        "y": 8823.65625,
-        "width": 351.71875,
-        "height": 42,
-        "type": "text"
-      },
-      {
-        "text": "Printable Versions of Most Blueprints, With New Printable Blueprints Added Monthly",
-        "x": 999.953125,
-        "y": 8875.453125,
-        "width": 371.078125,
-        "height": 42,
-        "type": "text"
-      },
-      {
-        "text": "Printable Versions of Most Blueprints, With New Printable Blueprints Added Monthly",
-        "x": 1019.3125,
-        "y": 8875.453125,
-        "width": 351.71875,
-        "height": 42,
-        "type": "text"
-      },
-      {
-        "text": "Audio Breakdowns of My Blueprints In a Convenient Private Podcast Feed So You Can Listen and Learn On-the-Go",
-        "x": 999.953125,
-        "y": 8931.453125,
-        "width": 371.078125,
-        "height": 63,
-        "type": "text"
-      },
-      {
-        "text": "Audio Breakdowns of My Blueprints In a Convenient Private Podcast Feed So You Can Listen and Learn On-the-Go",
-        "x": 1019.3125,
-        "y": 8931.453125,
-        "width": 351.71875,
-        "height": 63,
-        "type": "text"
-      },
-      {
-        "text": "Video Explanations of Most Frameworks Plus AI Summaries So You Know How to Use Them and Apply Them To Your Unique Business",
-        "x": 999.953125,
-        "y": 9004.25,
-        "width": 371.078125,
-        "height": 63,
-        "type": "text"
-      },
-      {
-        "text": "Video Explanations of Most Frameworks Plus AI Summaries So You Know How to Use Them and Apply Them To Your Unique Business",
-        "x": 1019.3125,
-        "y": 9004.25,
-        "width": 351.71875,
-        "height": 63,
-        "type": "text"
-      },
-      {
-        "text": "Easily Searchable Airtable Database With All the Blueprints in One Place (No Login Required)",
-        "x": 999.953125,
-        "y": 9077.046875,
-        "width": 371.078125,
-        "height": 42,
-        "type": "text"
-      },
-      {
-        "text": "Easily Searchable Airtable Database With All the Blueprints in One Place (No Login Required)",
-        "x": 1019.3125,
-        "y": 9077.046875,
-        "width": 351.71875,
-        "height": 42,
-        "type": "text"
-      },
-      {
-        "text": "NEW: Miro Board With All the Blueprints Easily Accessible in One Place. Easily Zoom In and Out As Needed to Study Each Blueprint. Includes Videos You Can Watch Right On the Board.",
-        "x": 999.953125,
-        "y": 9128.84375,
-        "width": 371.078125,
-        "height": 84,
-        "type": "text"
-      },
-      {
-        "text": "NEW: Miro Board With All the Blueprints Easily Accessible in One Place. Easily Zoom In and Out As Needed to Study Each Blueprint. Includes Videos You Can Watch Right On the Board.",
-        "x": 1019.3125,
-        "y": 9128.84375,
-        "width": 351.71875,
-        "height": 84,
-        "type": "text"
-      },
-      {
-        "text": "My \"Money Back or Trade It\" Guarantee",
-        "x": 545.25,
-        "y": 10208.921875,
-        "width": 829.5,
-        "height": 55.203125,
-        "type": "text"
-      },
-      {
-        "text": "If you're not happy for whatever reason, I'll gladly refund you in full OR give you another one of my digital products of equal or greater value at no extra cost.",
-        "x": 585,
-        "y": 10290.125,
-        "width": 750,
-        "height": 108,
-        "type": "text"
-      },
-      {
-        "text": "Beau Norton",
-        "x": 934.78125,
-        "y": 10438.625,
-        "width": 115.421875,
-        "height": 28,
-        "type": "text"
-      },
-      {
-        "text": "@beausbrain",
-        "x": 934.78125,
-        "y": 10466.625,
-        "width": 88.59375,
-        "height": 21,
-        "type": "text"
-      },
-      {
-        "text": "Get Lifetime Access For Only $49 \u2192All Current and Future Frameworks Included",
-        "x": 788.96875,
-        "y": 10552.125,
-        "width": 342.046875,
-        "height": 67.609375,
-        "type": "text"
-      },
-      {
-        "text": "Get Lifetime Access For Only $49 \u2192",
-        "x": 808.96875,
-        "y": 10567.125,
-        "width": 302.046875,
-        "height": 20.40625,
-        "type": "text"
-      },
-      {
-        "text": "All Current and Future Frameworks Included",
-        "x": 847.5,
-        "y": 10591.53125,
-        "width": 224.96875,
-        "height": 13.203125,
-        "type": "text"
-      },
-      {
-        "text": "New Frameworks Added Every Month. The Price Will Soon Increase to $97 and Eventually $197+ As I Continue Adding New Resources, So Now Is Your Chance to Lock In the Lowest Price This Will Ever Be Offered At (Just One Payment of $49 For LIFETIME Access)",
-        "x": 510,
-        "y": 10709.734375,
-        "width": 900,
-        "height": 201.484375,
-        "type": "text"
-      },
-      {
-        "text": "Some of the Frameworks Currently Available Inside Your Members Area",
-        "x": 510,
-        "y": 10991.21875,
-        "width": 900,
-        "height": 114.40625,
-        "type": "text"
-      },
-      {
-        "text": "Some of the Frameworks Currently Available Inside Your Members Area",
-        "x": 510,
-        "y": 10991.21875,
-        "width": 900,
-        "height": 114.40625,
-        "type": "text"
-      },
-      {
-        "text": "Monetization Phases on the Way to $20K Months: What to Focus On In Each Phase For Efficient Progress Towards Greater Freedom",
-        "x": 485,
-        "y": 11145.625,
-        "width": 950,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "Monetization Phases on the Way to $20K Months: What to Focus On In Each Phase For Efficient Progress Towards Greater Freedom",
-        "x": 519.84375,
-        "y": 11145.625,
-        "width": 915.15625,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "Designing An Effective Online Course or Coaching Program: The Key Elements Needed to Ensure Your Program Delivers Great Results to Your Customers",
-        "x": 485,
-        "y": 11266.625,
-        "width": 950,
-        "height": 121.5,
-        "type": "text"
-      },
-      {
-        "text": "Designing An Effective Online Course or Coaching Program: The Key Elements Needed to Ensure Your Program Delivers Great Results to Your Customers",
-        "x": 519.84375,
-        "y": 11266.625,
-        "width": 915.15625,
-        "height": 121.5,
-        "type": "text"
-      },
-      {
-        "text": "The 6 Core Content Categories: Take Any Topic and Break It Down In These Unique Ways to Turn One Idea Into Many",
-        "x": 485,
-        "y": 11428.125,
-        "width": 950,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "The 6 Core Content Categories: Take Any Topic and Break It Down In These Unique Ways to Turn One Idea Into Many",
-        "x": 519.84375,
-        "y": 11428.125,
-        "width": 915.15625,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "How to Find and Monetize Your Unique Niche: A Framework For Understanding How to Use Your Unique Genius to Serve Others and Generate Real Business Results",
-        "x": 485,
-        "y": 11549.125,
-        "width": 950,
-        "height": 121.5,
-        "type": "text"
-      },
-      {
-        "text": "How to Find and Monetize Your Unique Niche: A Framework For Understanding How to Use Your Unique Genius to Serve Others and Generate Real Business Results",
-        "x": 519.84375,
-        "y": 11549.125,
-        "width": 915.15625,
-        "height": 121.5,
-        "type": "text"
-      },
-      {
-        "text": "Offer Engineering: The Key Elements Needed to Make Any Offer More Irresistible to Potential Customers",
-        "x": 485,
-        "y": 11710.625,
-        "width": 950,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "Offer Engineering: The Key Elements Needed to Make Any Offer More Irresistible to Potential Customers",
-        "x": 519.84375,
-        "y": 11710.625,
-        "width": 915.15625,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "The Personal Brand Growth Engine: A Streamlined, Semi-Automated Growth Strategy For Scaling Your Business With Peace of Mind",
-        "x": 485,
-        "y": 11831.625,
-        "width": 950,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "The Personal Brand Growth Engine: A Streamlined, Semi-Automated Growth Strategy For Scaling Your Business With Peace of Mind",
-        "x": 519.84375,
-        "y": 11831.625,
-        "width": 915.15625,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "10 Hook Points: Use These Tactics to Capture Attention and Keep People Engaged With Your Content From Beginning to End",
-        "x": 485,
-        "y": 11952.625,
-        "width": 950,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "10 Hook Points: Use These Tactics to Capture Attention and Keep People Engaged With Your Content From Beginning to End",
-        "x": 519.84375,
-        "y": 11952.625,
-        "width": 915.15625,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "60 Fill-in-the-Blank Hook & Headline Formulas: Use These At the Beginning of Your Content to Create Curiosity and Encourage People to Listen to What You Have to Say Next",
-        "x": 485,
-        "y": 12073.625,
-        "width": 950,
-        "height": 121.5,
-        "type": "text"
-      },
-      {
-        "text": "60 Fill-in-the-Blank Hook & Headline Formulas: Use These At the Beginning of Your Content to Create Curiosity and Encourage People to Listen to What You Have to Say Next",
-        "x": 519.84375,
-        "y": 12073.625,
-        "width": 915.15625,
-        "height": 121.5,
-        "type": "text"
-      },
-      {
-        "text": "7 Universal Money Laws: General Guidelines and Reminders For What is Required to Prosper in Life and Business",
-        "x": 485,
-        "y": 12235.125,
-        "width": 950,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "7 Universal Money Laws: General Guidelines and Reminders For What is Required to Prosper in Life and Business",
-        "x": 519.84375,
-        "y": 12235.125,
-        "width": 915.15625,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "Streamlined Business Growth Plan For Peaceful Productivity: What to Focus On Monthly and Weekly to Consistently Grow Your Business Without Burning Out",
-        "x": 485,
-        "y": 12356.125,
-        "width": 950,
-        "height": 121.5,
-        "type": "text"
-      },
-      {
-        "text": "Streamlined Business Growth Plan For Peaceful Productivity: What to Focus On Monthly and Weekly to Consistently Grow Your Business Without Burning Out",
-        "x": 519.84375,
-        "y": 12356.125,
-        "width": 915.15625,
-        "height": 121.5,
-        "type": "text"
-      },
-      {
-        "text": "21 Copywriting Prompts For Thought Leaders: Unique Tactics to Share Your Message in More Persuasive and Engaging Ways",
-        "x": 485,
-        "y": 12517.625,
-        "width": 950,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "21 Copywriting Prompts For Thought Leaders: Unique Tactics to Share Your Message in More Persuasive and Engaging Ways",
-        "x": 519.84375,
-        "y": 12517.625,
-        "width": 915.15625,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "77 Idea Generation Prompts For Creators: Use These Whenever You Need a Quick Idea to Write or Make a Piece of Content About",
-        "x": 485,
-        "y": 12638.625,
-        "width": 950,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "77 Idea Generation Prompts For Creators: Use These Whenever You Need a Quick Idea to Write or Make a Piece of Content About",
-        "x": 519.84375,
-        "y": 12638.625,
-        "width": 915.15625,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "21 Timeless Persuasion Principles: Implement These to Make Your Ideas Stand Out and Become a More Sought-After Leader",
-        "x": 485,
-        "y": 12759.625,
-        "width": 950,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "21 Timeless Persuasion Principles: Implement These to Make Your Ideas Stand Out and Become a More Sought-After Leader",
-        "x": 519.84375,
-        "y": 12759.625,
-        "width": 915.15625,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "The Hero's Journey 12-Phase Storytelling Framework: Follow This Time-Tested Formula For Telling Better Stories and Capturing the Heart of Your Audience",
-        "x": 485,
-        "y": 12880.625,
-        "width": 950,
-        "height": 121.5,
-        "type": "text"
-      },
-      {
-        "text": "The Hero's Journey 12-Phase Storytelling Framework: Follow This Time-Tested Formula For Telling Better Stories and Capturing the Heart of Your Audience",
-        "x": 519.84375,
-        "y": 12880.625,
-        "width": 915.15625,
-        "height": 121.5,
-        "type": "text"
-      },
-      {
-        "text": "The Pillar Content Flywheel: Follow These Exact 15 Steps Every Time You Create a Piece of Core Content (Video, Podcast, or Blog Post)",
-        "x": 485,
-        "y": 13042.125,
-        "width": 950,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "The Pillar Content Flywheel: Follow These Exact 15 Steps Every Time You Create a Piece of Core Content (Video, Podcast, or Blog Post)",
-        "x": 519.84375,
-        "y": 13042.125,
-        "width": 915.15625,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "Systems Engineering: The 3 Types of Systems You Need to Successfully Monetize Your Knowledge and Streamline Your Business to Create More Freedom For Yourself",
-        "x": 485,
-        "y": 13163.125,
-        "width": 950,
-        "height": 121.5,
-        "type": "text"
-      },
-      {
-        "text": "Systems Engineering: The 3 Types of Systems You Need to Successfully Monetize Your Knowledge and Streamline Your Business to Create More Freedom For Yourself",
-        "x": 519.84375,
-        "y": 13163.125,
-        "width": 915.15625,
-        "height": 121.5,
-        "type": "text"
-      },
-      {
-        "text": "5 Naming Formulas For Your Methodologies: Use These For Turning Your Ideas Into Truly One-of-a-Kind Systems",
-        "x": 485,
-        "y": 13324.625,
-        "width": 950,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "5 Naming Formulas For Your Methodologies: Use These For Turning Your Ideas Into Truly One-of-a-Kind Systems",
-        "x": 519.84375,
-        "y": 13324.625,
-        "width": 915.15625,
-        "height": 81,
-        "type": "text"
-      },
-      {
-        "text": "7 Method-Centric Headline Formulas For Sales Pages and Advertisements: Use These to Quickly Convey the Benefit of Your Unique System, Method, or Process",
-        "x": 485,
-        "y": 13445.625,
-        "width": 950,
-        "height": 121.5,
-        "type": "text"
-      },
-      {
-        "text": "7 Method-Centric Headline Formulas For Sales Pages and Advertisements: Use These to Quickly Convey the Benefit of Your Unique System, Method, or Process",
-        "x": 519.84375,
-        "y": 13445.625,
-        "width": 915.15625,
-        "height": 121.5,
-        "type": "text"
-      },
-      {
-        "text": "The Splinter Scaling Method: The Most Efficient Way For Thought-Leaders to Scale Their Business (By Creating Just ONE Thing and Letting Everything Else Emerge From It)",
-        "x": 485,
-        "y": 13607.125,
-        "width": 950,
-        "height": 121.5,
-        "type": "text"
-      },
-      {
-        "text": "The Splinter Scaling Method: The Most Efficient Way For Thought-Leaders to Scale Their Business (By Creating Just ONE Thing and Letting Everything Else Emerge From It)",
-        "x": 519.84375,
-        "y": 13607.125,
-        "width": 915.15625,
-        "height": 121.5,
-        "type": "text"
-      },
-      {
-        "text": "Get Lifetime Access For Only $49 \u2192All Current and Future Frameworks Included",
-        "x": 788.96875,
-        "y": 13791.625,
-        "width": 342.046875,
-        "height": 67.609375,
-        "type": "text"
-      },
-      {
-        "text": "Get Lifetime Access For Only $49 \u2192",
-        "x": 808.96875,
-        "y": 13806.625,
-        "width": 302.046875,
-        "height": 20.40625,
-        "type": "text"
-      },
-      {
-        "text": "All Current and Future Frameworks Included",
-        "x": 847.5,
-        "y": 13831.03125,
-        "width": 224.96875,
-        "height": 13.203125,
-        "type": "text"
-      },
-      {
-        "text": "*Earnings and income representations made by Beau Norton or the Paid to Bring Peace brand, and their advertisers/sponsors are aspirational statements only of your earnings potential. These results are not typical and results will vary. The results on this page are OUR results and from years of testing. We can in NO way guarantee you will get similar results.This site is not a part of the Facebook website or Facebook, Inc. or the Google website or Google, LLC or Alphabet Inc., or TikTok, Inc. or ByteDance, Inc. Additionally, this website is NOT endorsed by Facebook in any way, or the Google website or Google, LLC. or Alphabet Inc. Facebook is a trademark of FACEBOOK, INC., or TikTok, Inc. or ByteDance, Inc. or any affiliated companies.Practitioners of Peace LLC - \u00a9 2024 All Rights Reserved | 1150 First Ave. King of Prussia, PA 19406",
-        "x": 460,
-        "y": 14375.234375,
-        "width": 1000,
-        "height": 346.5,
-        "type": "text"
-      },
-      {
-        "text": "*Earnings and income representations made by Beau Norton or the Paid to Bring Peace brand, and their advertisers/sponsors are aspirational statements only of your earnings potential. These results are not typical and results will vary. The results on this page are OUR results and from years of testing. We can in NO way guarantee you will get similar results.",
-        "x": 470.59375,
-        "y": 14378.234375,
-        "width": 983.703125,
-        "height": 119.5,
-        "type": "text"
-      },
-      {
-        "text": "This site is not a part of the Facebook website or Facebook, Inc. or the Google website or Google, LLC or Alphabet Inc., or TikTok, Inc. or ByteDance, Inc. Additionally, this website is NOT endorsed by Facebook in any way, or the Google website or Google, LLC. or Alphabet Inc. Facebook is a trademark of FACEBOOK, INC., or TikTok, Inc. or ByteDance, Inc. or any affiliated companies.",
-        "x": 466.4375,
-        "y": 14535.734375,
-        "width": 992.03125,
-        "height": 119.5,
-        "type": "text"
-      },
-      {
-        "text": "Practitioners of Peace LLC - \u00a9 2024 All Rights Reserved | 1150 First Ave. King of Prussia, PA 19406",
-        "x": 499.921875,
-        "y": 14693.234375,
-        "width": 920.140625,
-        "height": 25,
-        "type": "text"
-      },
-      {
-        "text": "\u00a9 Practitioners of Peace LLC",
-        "x": 828.625,
-        "y": 14779.734375,
-        "width": 262.734375,
-        "height": 30,
-        "type": "text"
-      },
-      {
-        "text": "Contact",
-        "x": 734.78125,
-        "y": 14851.734375,
-        "width": 71.890625,
-        "height": 30,
-        "type": "text"
-      },
-      {
-        "text": "Contact",
-        "x": 734.78125,
-        "y": 14854.734375,
-        "width": 71.890625,
-        "height": 24,
-        "type": "text"
-      },
-      {
-        "text": "Privacy Policy",
-        "x": 843.671875,
-        "y": 14851.734375,
-        "width": 127.125,
-        "height": 30,
-        "type": "text"
-      },
-      {
-        "text": "Privacy Policy",
-        "x": 843.671875,
-        "y": 14854.734375,
-        "width": 127.125,
-        "height": 24,
-        "type": "text"
-      },
-      {
-        "text": "Terms & Conditions",
-        "x": 1007.796875,
-        "y": 14851.734375,
-        "width": 177.40625,
-        "height": 30,
-        "type": "text"
-      },
-      {
-        "text": "Terms & Conditions",
-        "x": 1007.796875,
-        "y": 14854.734375,
-        "width": 177.40625,
-        "height": 24,
-        "type": "text"
-      },
-      {
-        "text": "287\n    people",
-        "x": 95,
-        "y": 1100.767822265625,
-        "width": 82.15625,
+        "text": "Chief Operating Officer",
+        "x": 845,
+        "y": 1874,
+        "width": 211.0625,
         "height": 18,
         "type": "text"
       },
       {
-        "text": "287",
-        "x": 99,
-        "y": 1100.390869140625,
-        "width": 25.53125,
-        "height": 17,
+        "text": "Nominated to represent the Oceania region on the International Union for Conservation of Nature (IUCN) Council",
+        "x": 845,
+        "y": 1915.59375,
+        "width": 594.8125,
+        "height": 38.796875,
         "type": "text"
       },
       {
-        "text": "Purchased Creator Blueprints",
-        "x": 99,
-        "y": 1124.390869140625,
-        "width": 176.21875,
-        "height": 16,
+        "text": "At the start of our work together, Erica was working well below her capacity. Over and over we stripped back the noise and refocused her energy on the levers that matter.\u00a0Her work and voice now carry global significance, including with forums such as COP and United Nations, as well as her current nomination to represent the Oceania region on the International Union for Conservation of Nature (IUCN) Council.\u00a0Erica and I continue to work together with my coaching role adapting to meet her at each new level she finds herself.",
+        "x": 845,
+        "y": 1988,
+        "width": 594,
+        "height": 370,
+        "type": "text"
+      },
+      {
+        "text": "Katie Godden",
+        "x": 452,
+        "y": 2525,
+        "width": 589,
+        "height": 76,
+        "type": "text"
+      },
+      {
+        "text": "Redesigned her business model",
+        "x": 1030.796875,
+        "y": 2670.5625,
+        "width": 441.203125,
+        "height": 26.390625,
+        "type": "text"
+      },
+      {
+        "text": "Repositioned her in the marketplace as a leading expert",
+        "x": 1030.796875,
+        "y": 2696.953125,
+        "width": 441.203125,
+        "height": 52.78125,
+        "type": "text"
+      },
+      {
+        "text": "Established her Communication IP",
+        "x": 1030.796875,
+        "y": 2749.734375,
+        "width": 441.203125,
+        "height": 26.390625,
+        "type": "text"
+      },
+      {
+        "text": "7X her launch size",
+        "x": 1030.796875,
+        "y": 2776.125,
+        "width": 441.203125,
+        "height": 26.390625,
+        "type": "text"
+      },
+      {
+        "text": "7X her launch size",
+        "x": 1032.984375,
+        "y": 2773.125,
+        "width": 201.53125,
+        "height": 31,
+        "type": "text"
+      },
+      {
+        "text": "Expanded into the contract space: Signed her first high-level contract + established a robust service evaluation plan to set the foundations for even larger contracts next.",
+        "x": 1030.796875,
+        "y": 2802.515625,
+        "width": 441.203125,
+        "height": 131.953125,
+        "type": "text"
+      },
+      {
+        "text": "Amy Mclean",
+        "x": 883,
+        "y": 3223,
+        "width": 589,
+        "height": 76,
+        "type": "text"
+      },
+      {
+        "text": "Founder of Te Mana o Ng\u0101 W\u0101hine (a premium annual event for W\u0101hine M\u0101ori) and Te K\u0101inga W\u0101hine",
+        "x": 883,
+        "y": 3316,
+        "width": 527.65625,
+        "height": 38.796875,
+        "type": "text"
+      },
+      {
+        "text": "\u201cI\u2019ve worked with a number of coaches over the years in business, and Kate is certainly at a level of coaching that I don't think I've experienced with anyone else.\u201d",
+        "x": 888,
+        "y": 3458,
+        "width": 527,
+        "height": 163,
+        "type": "text"
+      },
+      {
+        "text": "Here are four more client stories\u2026",
+        "x": 425,
+        "y": 4135,
+        "width": 672,
+        "height": 48,
+        "type": "text"
+      },
+      {
+        "text": "Shifts at these levels, require both strategy and inner growth.\u00a0 I work at the intersection of business strategy, leadership evolution, and high-performance execution, supporting the success of many industry leaders you might know, work with, or admire.",
+        "x": 430,
+        "y": 3920,
+        "width": 1059,
+        "height": 165,
+        "type": "text"
+      },
+      {
+        "text": "Note: Each of my clients has very different needs.\u00a0 I\u2019ve included these particular client examples (above and below) to give a sense of the spectrum of challenges I work across",
+        "x": 425,
+        "y": 4222,
+        "width": 967,
+        "height": 63,
+        "type": "text"
+      },
+      {
+        "text": "[MEET ANNA] Signed a milestone $15,000,000 contract...",
+        "x": 442,
+        "y": 4331,
+        "width": 992,
+        "height": 31,
+        "type": "text"
+      },
+      {
+        "text": "[MEET KARLIE] Redesigned her business model for scalability...",
+        "x": 442,
+        "y": 4392,
+        "width": 992,
+        "height": 31,
+        "type": "text"
+      },
+      {
+        "text": "[MEET SYLVIE] Transformed team communications & optimised processes",
+        "x": 442,
+        "y": 4453,
+        "width": 992,
+        "height": 31,
+        "type": "text"
+      },
+      {
+        "text": "[MEET AMY] Owning her leadership at a national level...",
+        "x": 445,
+        "y": 4513,
+        "width": 992,
+        "height": 31,
+        "type": "text"
+      },
+      {
+        "text": "Here's how we\u2019ll work together",
+        "x": 430,
+        "y": 5173,
+        "width": 1062,
+        "height": 216,
+        "type": "text"
+      },
+      {
+        "text": "Working with me at this level means highly individualised, one-to-one support. I\u2019ll meet you where you are and provide exactly what you need at every step. As you grow and your needs evolve, I\u2019ll be right there alongside you.",
+        "x": 426,
+        "y": 5462,
+        "width": 1064,
+        "height": 110,
+        "type": "text"
+      },
+      {
+        "text": "We\u2019ll begin with a three or six month term",
+        "x": 442,
+        "y": 5634,
+        "width": 992,
+        "height": 31,
+        "type": "text"
+      },
+      {
+        "text": "You\u2019ll complete a comprehensive intake form",
+        "x": 442,
+        "y": 5695,
+        "width": 992,
+        "height": 31,
+        "type": "text"
+      },
+      {
+        "text": "90-Minute Business Strategy & Alignment Session",
+        "x": 442,
+        "y": 5756,
+        "width": 992,
+        "height": 31,
+        "type": "text"
+      },
+      {
+        "text": "60-Minute Private Strategy Sessions (Fortnightly)",
+        "x": 442,
+        "y": 5817,
+        "width": 992,
+        "height": 31,
+        "type": "text"
+      },
+      {
+        "text": "Weekday Voice & Text Coaching Support",
+        "x": 442,
+        "y": 5878,
+        "width": 992,
+        "height": 31,
+        "type": "text"
+      },
+      {
+        "text": "Strategic Resources & Bespoke Support",
+        "x": 442,
+        "y": 5939,
+        "width": 992,
+        "height": 31,
+        "type": "text"
+      },
+      {
+        "text": "High-Impact Asset Reviews",
+        "x": 442,
+        "y": 6000,
+        "width": 992,
+        "height": 31,
+        "type": "text"
+      },
+      {
+        "text": "Register to work with me",
+        "x": 760,
+        "y": 6101,
+        "width": 401,
+        "height": 54,
+        "type": "text"
+      },
+      {
+        "text": "Register to work with me",
+        "x": 760,
+        "y": 6101,
+        "width": 401,
+        "height": 54,
+        "type": "text"
+      },
+      {
+        "text": "Register to work with me",
+        "x": 848.578125,
+        "y": 6119.90625,
+        "width": 223.828125,
+        "height": 18.1875,
+        "type": "text"
+      },
+      {
+        "text": "About",
+        "x": 434,
+        "y": 6310,
+        "width": 325,
+        "height": 117,
+        "type": "text"
+      },
+      {
+        "text": "I work at the intersection of business strategy, leadership evolution, and high-performance execution, supporting the success of many industry leaders you might know, work with, or admire.I have a diverse and extensive skillset \u2014 developed and honed through 15 years of growing and supporting businesses in the online space, multiple government contracts, coaching high-profile industry leaders and senior executives, running hundreds of in-person workshops and large-scale global events, and over a decade as a senior leadership trainer.From a coaching perspective, I\u2019ve been coaching since 2010. After thousands of sessions, I\u2019m highly skilled at zeroing in on the one thing that\u2019s most needed to move the needle for you. I can read the complexities and nuances of the landscape you\u2019re operating in and provide the strategic insight and support that drives real results.This depth of experience, paired with a strong intuitive approach, allows me to provide the level of guidance, coaching, and partnership you\u2019re truly looking for.",
+        "x": 434,
+        "y": 6542,
+        "width": 584,
+        "height": 461,
+        "type": "text"
+      },
+      {
+        "text": "Kate Ruby Bradshaw",
+        "x": 422,
+        "y": 6440,
+        "width": 594,
+        "height": 81,
+        "type": "text"
+      },
+      {
+        "text": "If you\u2019d like to chat before signing up, send me a message on Instagram, Facebook, or email support@katerubybradshaw.comWe\u2019ll talk about where you\u2019re at and make sure it\u2019s the right fit for us both.",
+        "x": 648,
+        "y": 7834,
+        "width": 624,
+        "height": 118,
+        "type": "text"
+      },
+      {
+        "text": "Instagram",
+        "x": 1176.3125,
+        "y": 7833,
+        "width": 88.453125,
+        "height": 24,
+        "type": "text"
+      },
+      {
+        "text": "Facebook",
+        "x": 734.015625,
+        "y": 7855.09375,
+        "width": 82.9375,
+        "height": 24,
+        "type": "text"
+      },
+      {
+        "text": "Investment: $1850 AUD monthly, with a minimum commitment of 3 months.Full Pay discount available",
+        "x": 516,
+        "y": 7353,
+        "width": 888,
+        "height": 73,
+        "type": "text"
+      },
+      {
+        "text": "Investment",
+        "x": 682,
+        "y": 7198,
+        "width": 558,
+        "height": 117,
+        "type": "text"
+      },
+      {
+        "text": "REGISTER FOR A 3-MONTH 1:1 PACKAGE",
+        "x": 560,
+        "y": 7741,
+        "width": 371,
+        "height": 19,
+        "type": "text"
+      },
+      {
+        "text": "REGISTER FOR A 3-MONTH 1:1 PACKAGE",
+        "x": 560,
+        "y": 7741,
+        "width": 371,
+        "height": 19,
+        "type": "text"
+      },
+      {
+        "text": "REGISTER FOR A 6-MONTH 1:1 PACKAGE",
+        "x": 989,
+        "y": 7741,
+        "width": 374,
+        "height": 21,
+        "type": "text"
+      },
+      {
+        "text": "REGISTER FOR A 6-MONTH 1:1 PACKAGE",
+        "x": 989,
+        "y": 7741,
+        "width": 374,
+        "height": 21,
+        "type": "text"
+      },
+      {
+        "text": "Full Pay Options",
+        "x": 861,
+        "y": 7656,
+        "width": 198,
+        "height": 28,
+        "type": "text"
+      },
+      {
+        "text": "Monthly Pay Options",
+        "x": 836,
+        "y": 7472,
+        "width": 249,
+        "height": 28,
+        "type": "text"
+      },
+      {
+        "text": "REGISTER FOR A 3-MONTH 1:1 PACKAGE",
+        "x": 560,
+        "y": 7557,
+        "width": 371,
+        "height": 19,
+        "type": "text"
+      },
+      {
+        "text": "REGISTER FOR A 3-MONTH 1:1 PACKAGE",
+        "x": 560,
+        "y": 7557,
+        "width": 371,
+        "height": 19,
+        "type": "text"
+      },
+      {
+        "text": "REGISTER FOR A 6-MONTH 1:1 PACKAGE",
+        "x": 989,
+        "y": 7557,
+        "width": 374,
+        "height": 21,
+        "type": "text"
+      },
+      {
+        "text": "REGISTER FOR A 6-MONTH 1:1 PACKAGE",
+        "x": 989,
+        "y": 7557,
+        "width": 374,
+        "height": 21,
+        "type": "text"
+      },
+      {
+        "text": "\"I feel so supported by Kate. She's a very generous person, a very genuine person and she truly wants the best for everybody\"",
+        "x": 493,
+        "y": 8857,
+        "width": 594,
+        "height": 94,
+        "type": "text"
+      },
+      {
+        "text": "Karlie McKeand - Founder of ERT",
+        "x": 493,
+        "y": 8987,
+        "width": 459,
+        "height": 22,
+        "type": "text"
+      },
+      {
+        "text": "\"With other mentors, I\u2019ve felt like just another number, but with Kate, I feel like a person. She\u2019s so invested in me and my growth.\"",
+        "x": 493,
+        "y": 8180,
+        "width": 594,
+        "height": 61,
+        "type": "text"
+      },
+      {
+        "text": "Marissa Lewis - Business and Success Coach",
+        "x": 493,
+        "y": 8284,
+        "width": 459,
+        "height": 22,
+        "type": "text"
+      },
+      {
+        "text": "\"When Ive got overwhelmed with issues within my organisation, being able to jump on a call with Kate and have her lift me out of the slosh and muck has allowed me to move bits of the puzzle which has then gone onto have this massive flow on effect for all aspects of my organisation\"",
+        "x": 493,
+        "y": 9173,
+        "width": 594,
+        "height": 177,
+        "type": "text"
+      },
+      {
+        "text": "Emma Sullings - National Charity Founder",
+        "x": 493,
+        "y": 9370,
+        "width": 459,
+        "height": 22,
+        "type": "text"
+      },
+      {
+        "text": "\"Working with Kate has been the most expansive and immediately successful experience I\u2019ve ever had. Nothing has impacted me at the level that working with Kate has.\"",
+        "x": 493,
+        "y": 8491,
+        "width": 594,
+        "height": 121,
+        "type": "text"
+      },
+      {
+        "text": "Aubrey Taylor - Founder of Youth for Freedom",
+        "x": 493,
+        "y": 8635,
+        "width": 459,
+        "height": 22,
+        "type": "text"
+      },
+      {
+        "text": "I\u2019ll guide you in the strategic moves your business or organisation needs to make, and the internal shifts required to lead from there, walking alongside you each step of the way.",
+        "x": 489,
+        "y": 9718,
+        "width": 913,
+        "height": 126,
+        "type": "text"
+      },
+      {
+        "text": "REGISTER FOR A 3-MONTH 1:1 PACKAGE",
+        "x": 560,
+        "y": 10214,
+        "width": 371,
+        "height": 19,
+        "type": "text"
+      },
+      {
+        "text": "REGISTER FOR A 3-MONTH 1:1 PACKAGE",
+        "x": 560,
+        "y": 10214,
+        "width": 371,
+        "height": 19,
+        "type": "text"
+      },
+      {
+        "text": "REGISTER FOR A 6-MONTH 1:1 PACKAGE",
+        "x": 989,
+        "y": 10214,
+        "width": 374,
+        "height": 21,
+        "type": "text"
+      },
+      {
+        "text": "REGISTER FOR A 6-MONTH 1:1 PACKAGE",
+        "x": 989,
+        "y": 10214,
+        "width": 374,
+        "height": 21,
+        "type": "text"
+      },
+      {
+        "text": "Full Pay Options",
+        "x": 861,
+        "y": 10101,
+        "width": 198,
+        "height": 28,
+        "type": "text"
+      },
+      {
+        "text": "Monthly Pay Options",
+        "x": 829,
+        "y": 9894,
+        "width": 232,
+        "height": 28,
+        "type": "text"
+      },
+      {
+        "text": "REGISTER FOR A 3-MONTH 1:1 PACKAGE",
+        "x": 560,
+        "y": 10002,
+        "width": 371,
+        "height": 19,
+        "type": "text"
+      },
+      {
+        "text": "REGISTER FOR A 3-MONTH 1:1 PACKAGE",
+        "x": 560,
+        "y": 10002,
+        "width": 371,
+        "height": 19,
+        "type": "text"
+      },
+      {
+        "text": "REGISTER FOR A 6-MONTH 1:1 PACKAGE",
+        "x": 989,
+        "y": 10002,
+        "width": 374,
+        "height": 21,
+        "type": "text"
+      },
+      {
+        "text": "REGISTER FOR A 6-MONTH 1:1 PACKAGE",
+        "x": 989,
+        "y": 10002,
+        "width": 374,
+        "height": 21,
+        "type": "text"
+      },
+      {
+        "text": "Freebie",
+        "x": 662,
+        "y": 10448,
+        "width": 141,
+        "height": 41,
+        "type": "text"
+      },
+      {
+        "text": "Navigation",
+        "x": 440,
+        "y": 10448,
+        "width": 118,
+        "height": 28,
+        "type": "text"
+      },
+      {
+        "text": "Business BoundariesCommunication",
+        "x": 660,
+        "y": 10530,
+        "width": 266,
+        "height": 48,
+        "type": "text"
+      },
+      {
+        "text": "Business Boundaries",
+        "x": 660,
+        "y": 10530,
+        "width": 174.046875,
+        "height": 24,
+        "type": "text"
+      },
+      {
+        "text": "Communication",
+        "x": 660,
+        "y": 10555.5,
+        "width": 138.921875,
+        "height": 24,
+        "type": "text"
+      },
+      {
+        "text": "HomepageAbout1-1 CoachingPodcast",
+        "x": 440,
+        "y": 10530,
+        "width": 126,
+        "height": 97,
+        "type": "text"
+      },
+      {
+        "text": "Homepage",
+        "x": 440,
+        "y": 10530,
+        "width": 95.71875,
+        "height": 24,
+        "type": "text"
+      },
+      {
+        "text": "About",
+        "x": 440,
+        "y": 10555.5,
+        "width": 50.90625,
+        "height": 24,
+        "type": "text"
+      },
+      {
+        "text": "1-1 Coaching",
+        "x": 440,
+        "y": 10581,
+        "width": 108.046875,
+        "height": 24,
+        "type": "text"
+      },
+      {
+        "text": "Podcast",
+        "x": 440,
+        "y": 10606.5,
+        "width": 69.09375,
+        "height": 24,
+        "type": "text"
+      },
+      {
+        "text": "@KateRubyBradshaw",
+        "x": 687,
+        "y": 10671,
+        "width": 234,
+        "height": 42,
+        "type": "text"
+      },
+      {
+        "text": "@KateRubyBradshaw",
+        "x": 691.859375,
+        "y": 10672,
+        "width": 224.265625,
+        "height": 25,
+        "type": "text"
+      },
+      {
+        "text": "Terms & Conditions | Privacy Policy\u00a0|\u00a0Contact",
+        "x": 630,
+        "y": 10997,
+        "width": 660,
+        "height": 21,
+        "type": "text"
+      },
+      {
+        "text": "Terms & Conditions",
+        "x": 744.140625,
+        "y": 10999,
+        "width": 172.6875,
+        "height": 18,
+        "type": "text"
+      },
+      {
+        "text": "Privacy Policy",
+        "x": 945.609375,
+        "y": 10999,
+        "width": 134.3125,
+        "height": 18,
+        "type": "text"
+      },
+      {
+        "text": "Contact",
+        "x": 1108.703125,
+        "y": 10999,
+        "width": 67.15625,
+        "height": 18,
+        "type": "text"
+      },
+      {
+        "text": "Branding & Website by Bailey Rose Creative",
+        "x": 630,
+        "y": 10961,
+        "width": 660,
+        "height": 21,
+        "type": "text"
+      },
+      {
+        "text": "Bailey Rose Creative",
+        "x": 969.59375,
+        "y": 10963,
+        "width": 191.875,
+        "height": 18,
         "type": "text"
       }
     ]

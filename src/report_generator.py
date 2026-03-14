@@ -103,28 +103,8 @@ def generate_teardown_report(image_path: str | list[str], bounding_boxes: list[d
                 segment_top = segment_bottom
                 pdf_page_index += 1
 
-    pdf.add_page()
-    pdf.set_font("Helvetica", "", 12)
-
-    friction_text = flow_analysis.get("F") or flow_analysis.get("Friction") or ""
-    legitimacy_text = flow_analysis.get("L") or flow_analysis.get("Legitimacy") or ""
-    offer_clarity_text = flow_analysis.get("O") or flow_analysis.get("Offer Clarity") or ""
-    willingness_text = flow_analysis.get("W") or flow_analysis.get("Willingness to Buy") or ""
-
-    sections = [
-        ("Friction", friction_text),
-        ("Legitimacy", legitimacy_text),
-        ("Offer Clarity", offer_clarity_text),
-        ("Willingness to Buy", willingness_text),
-    ]
-
-    for title, text in sections:
-        pdf.set_font("Helvetica", "B", 13)
-        pdf.cell(0, 8, title, new_x="LMARGIN", new_y="NEXT")
-        pdf.set_font("Helvetica", "", 12)
-        pdf.multi_cell(0, 7, str(text).strip() if text else "")
-        pdf.ln(2)
-
+    # Text section fundamentally removed to render Claude analysis natively in Streamlit UI instead
+    
     output_path = Path("teardown_report.pdf")
     pdf.output(str(output_path))
     return str(output_path)
