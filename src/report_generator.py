@@ -28,7 +28,7 @@ def generate_teardown_report(image_path: str | list[str], bounding_boxes: list[d
             image_width_px, image_height_px = image.size
             draw = ImageDraw.Draw(image)
 
-            # Draw ALL bounding boxes onto the full image first!
+            # Highlight only elements Claude did not select as issues.
             for box in normalized_boxes:
                 x = box.get("x")
                 y = box.get("y")
@@ -38,32 +38,11 @@ def generate_teardown_report(image_path: str | list[str], bounding_boxes: list[d
                     continue
 
                 score = box.get("score")
-                outline_color = "red"
-                box_width = 5
-
-                # Heat map: 0 or low is bad (red, thickest), 10 is good (green, thinnest)
                 if score is not None:
-                    try:
-                        score_val = float(score)
-                        
-                        # Bright heat map encoding
-                        if score_val <= 5:
-                            # 0 to 5: Solid Red to Bright Yellow
-                            r = 255
-                            g = int((score_val / 5.0) * 255)
-                            b = 0
-                        else:
-                            # 5 to 10: Bright Yellow to Solid Green
-                            r = int(((10.0 - score_val) / 5.0) * 255)
-                            g = 255
-                            b = 0
-                        
-                        outline_color = f"#{r:02x}{g:02x}{b:02x}"
-                        
-                        # Calculate width: Lower score = much thicker border
-                        box_width = max(3, int(15 - (score_val * 1.2)))
-                    except (ValueError, TypeError):
-                        pass
+                    continue
+
+                outline_color = "#00c853"
+                box_width = 5
 
                 draw.rectangle(
                     (float(x), float(y), float(x) + float(width), float(y) + float(height)),
